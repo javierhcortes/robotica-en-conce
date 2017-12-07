@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+## Taller de Robotica *Made in Conce*
 
-You can use the [editor on GitHub](https://github.com/javierhcortes/taller-robotica/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Bienvendio al taller de robotica donde aprenderemos como fabricar nuestor primer robot.
+No es necesario tener experiencia previa o ser un genio para comenzar, solo necesitamos motivacion y materiales!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+~~Lo único que se requiere es voluntad para experimentar y aprender~~
 
-### Markdown
+Es facil asombrarse por la robotica, porque incorpora amplia gama de habilidades, en
+multiples discipllinas, pero lo importante es no intimiadarse y trabajar en equipo!
+ 
+~~Aunque es fácil dejarse intimidar por la robótica porque incorpora una amplia gama de habilidades
+ en una variedad de disciplinas, no hay razón para ello.~~
+ 
+~~Los fundamentos son en realidad bastante -- bueno -- fundamentales.~~
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+En menos de un mes usted puede aprender lo básico necesario para empezar a construir robots por tu cuenta.
+~~Si usted es un aficionado, aspirante a ingeniero, artista, científico, o simplemente curioso, 
+ puede utilizar para comenzar su viaje en el mundo salvaje de la robótica.~~
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### ¿Qué es un robot?
 
-- Bulleted
-- List
+~~Hay muchas escuelas de robótica y muchos pensamientos sobre lo que constituye un robot. Por el bien del argumento, a continuación se presenta la definición que usaremos al avanzar.~~
 
-1. Numbered
-2. List
+Antes de comenzar a construir un robot, detengamosnos a pensar que es un robot.
 
-**Bold** and _Italic_ and `Code` text
+Las caracteristicas basicas son : 
 
-[Link](url) and ![Image](src)
-```
+	- Autonomo : tiene motores (o actuadores) que permiten interactuar con el entorno, sin necesidad de intervencion humana
+	- Responde : tiene sensores que permiten observar los estimulos del entorno.
+	- Inteligente : Tiene una computadora que le permite tomar decisiones en base al comportamiento programado
+~~Social Puede interactuar con otros seres autónomos, inteligentes y receptivos.~~
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+**IMG** imagen con tres elementos destacando cerebro, sensores y actuadores
 
-### Jekyll Themes
+Con esta definicion podemos pensar que nuestra lavadora, microondas o incluso la tostadora son robots!
+**IMG** Tostadora con ojos
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/javierhcortes/taller-robotica/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+La respuesta esta en que una maquina compleja, no es diferenciable ante un robot solo por su definicion.
+Somos nosotros los encargados de darle el termino "automata o robot" a un objeto que pueda interactuar con las personas.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Herramientas necesarias
+
+ - Lista de materiales
+ - Arduino
+ - Cables
+ - leds
+ - sensores
+ - motores
+ - protoboard
+ 
+ - Herramientas de trabajo
+ - Alicate Cortante
+ - Cautin
+ - soldadura
+ - etc
+ 
+ Toma un poco de agua. Usted no es un robot y siempre es importante mantenerse hidratado.
+
