@@ -1,23 +1,28 @@
 TALLER: ROBÓTICA PARA MI, PARA TÍ Y PARA TODOS.
 
 Descripción:
-Se propone como un laboratorio teorico-practico que mediante experimentacion colaborativa.
-
-Enfocado en 
-Este taller busca introducir a los participantes en las principales temáticas de la robotica arduina, la cual comprende una plataforma que busca……., analizando la importancia de ………………….para el aprendizaje en el contexto actual de XXXXX …………………………. El curso pretende entregar, además, herramientas que permitan utilizar  y valorar ………………………… en contextos de …………………………… con el propósito de XXXXXXXXXXXXX transferibles al área………
+Se propone como un laboratorio teórico-practico que, mediante experimentacion colaborativa
+busca introducir a los participantes en las principales temáticas de la robotica ~~arduina,~~
+~~la cual comprende una plataforma que busca…….,~~
+analizando la importancia de los conceptos de (tecnologia, fisica y .... ) 
+para el aprendizaje en el contexto actual de revolucion tecnologica.
+El curso pretende entregar, además, herramientas teoricas y practicas que permiten 
+explorar la creatividad en contextos de grupales con el propósito de generar comunidad.
 
 Objetivos:
-
 Conceptuales:
-Conocer los principios de la robótica para principiantes.
-Identificar modelos de  robótica XXXXXXXX.
-Comprender los conceptos claves de la programación de arduino para el manejo de logica
+Conversar y conocer acerca de la robótica y sus principios.
+~~Identificar modelos de robótica XXXXXXXX.~~
+Comprender sobre conceptos elementales los fundamentos de fisica
+Comprender los fundamentos de la programación en arduino para el manejo de logica
+
 Procedimentales:
 Aplicar los conceptos claves de la robótica para manipular sensores, actuadores y microcontroladores
 Ejecutar  los conceptos claves de la robótica para el diseño de un autónoma
+
 Actitudinales:
 Valorar el aporte de la robótica en el context educacional y el diario vivir.
-Apreciar el aporte de la robótica en XXXXX.
+Apreciar el aporte de la robótica en XXXXX.]
 
 Resultados de aprendizaje
 
@@ -51,7 +56,8 @@ Casos de ejemplo con actuadores. (20 min)
 Dia 3:
 Elementos teóricos y prácticos en robótica: 
 Mecanica (poleas, torque, peso, fuerza) (1 hr)
-planificación de desarrollo de robot. (30 min)
+Organizacion de grupos para el diseño de un robot (10 min)
+planificación de diseño de robot. (30 min)
 
 Dia 4:
 Diseño y construcción de un robot: 
