@@ -40,22 +40,8 @@ La respuesta esta en que una maquina compleja, no es diferenciable ante un robot
 Somos nosotros los encargados de darle el termino "automata o robot" a un objeto que pueda interactuar con las personas.
 
 
-### Herramientas necesarias
 
- - Lista de materiales
- - Arduino
- - Cables
- - leds
- - sensores
- - motores
- - protoboard
- 
- - Herramientas de trabajo
- - Alicate Cortante
- - Cautin
- - soldadura
- - etc
- 
- Toma un poco de agua. Usted no es un robot y siempre es importante mantenerse hidratado.
 
-https://javierhcortes.github.io/taller-robotica/
+[Link Renderizado Web]https://javierhcortes.github.io/taller-robotica/
+
+
