@@ -1,7 +1,7 @@
 ## Taller de Robotica
 ### ROBÓTICA PARA MI, PARA TÍ Y PARA TODOS.
 
- - Enlace al programa del taller [aqui](programa_descripcion.md)
+ - Enlace al programa del taller [aqui](/programa_descripcion.md)
 
 
 Bienvendio al taller de robotica donde aprenderemos como fabricar nuestor primer robot.
