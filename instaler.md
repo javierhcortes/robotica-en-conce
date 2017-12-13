@@ -16,7 +16,7 @@ Debe instalar  ruby 2.1.0 o mayor
 
 	>$ sudo gem install bundler
 	
-4) Instalar las dependencias (requerira password durante la instalacion)
+4) Instalar las dependencias (requerira superuser durante la instalacion)
 
 	>$ bundle install
 	

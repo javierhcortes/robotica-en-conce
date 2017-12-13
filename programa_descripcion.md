@@ -1,50 +1,60 @@
-TALLER: ROBÓTICA PARA MI, PARA TÍ Y PARA TODOS.
+##TALLER: ROBÓTICA PARA MI, PARA TÍ Y PARA TODOS.
 
 Descripción:
-Se propone como un laboratorio teórico-práctico que busca introducir a los participantes en las principales temáticas de la robótica, uniendo partes mecánicas y sistemas electrónicos con microcontroladores.
 
+Se propone como un laboratorio teórico-práctico que busca introducir a los participantes en las principales temáticas de la robótica, uniendo partes mecánicas y sistemas electrónicos con microcontroladores.
 El curso pretende además, entregar herramientas teóricas y prácticas que permiten integrar la mecánica, electrónica, programación y control involucrada en diseños robóticos.
 
-Objetivos:
+**Objetivos:**
 
 Conceptuales:
+
 - Comprender sobre conceptos elementales los fundamentos de electricidad y mecanica.
 - Conocer el funcionamiento de los principales componentes de un sistema robótico: sensores, actuadores, efectores y sistema de control.
 - Comprender los fundamentos de la programación en arduino para el manejo de logica
 
 Procedimentales:
+
 - Diseñar un sistema robótico basado en la utilización de sensores y actuadores que interactúen con el mundo real.
 
 Actitudinales:
+
 - Valorar el aporte de la robótica en diario vivir.
 
 
-Resultados de aprendizaje
+**Resultados de aprendizaje**
 
 Se espera que los(as) participantes al finalizar el taller logren:
-Conozcan los conceptos claves de la robótica
-Experimenten, con los materiales provistos,
-Desarrollar colaborativamente  un robot.
 
-Metodología:
+- Conozcan los conceptos claves de la robótica
+- Experimenten, con los materiales provistos,
+- Desarrollar colaborativamente  un robot.
+
+**Metodología:**
+
 Taller guiado por el relator, orientado a generar interactividad entre los participantes, apoyándose con demostraciones IN SITU de ensamblaje y programación robótica.
 
-Contenidos:
+**Contenidos:**
 
 1-Introducción a la robótica
+
 - Concepto de Robot
 - Tipos de Robots
 - Partes de un Robots
 - Tipos de control asociados
 - Maquinas robotizadas
+
 2-Electricidad y electrónica
+
 - Reconocimiento de partes incluidas en el Kit
 - Ley de ohm
 - Tipos de señales (análogo y digital)
 - Salidas (digital y PWM)
 - Entradas (digital y análogas)
 - Microcontroladores
+
 3-Introducción a Arduino
+
 - Descripción de la tarjeta Arduino
 - Instalación del Arduino IDE
 - Partes y funciones del IDE
@@ -52,7 +62,9 @@ Contenidos:
 - Carga de un sketch a la tarjeta Arduino
 - Bucles de control, variables y constantes, operadores
 - Comunicación serial
+
 4-Mecatrónica
+
 - Mecanismos
 - Sistemas de transmisión de fuerza
 - Cajas reductoras
@@ -61,33 +73,55 @@ Contenidos:
 - Servomotores
 - Sistemas neumáticos e hidráulicos
 - Control de Actuadores desde Arduino (Control ON-OFF y PWM)
+
 5-Sensores
+
 - Tipos de Sensores
 - Lectura e interpretación de sensores
 - Casos ejemplos de sensores
 
-Evaluación:
+**Evaluación:**
+
 A lo largo del taller se realizarán actividades formativas de las temáticas trabajadas. Junto con ello, al término del taller se realizará una evaluación grupal que incluye la construcción de un robot. La cual implicará una exposición por los (as) participantes de cada grupo.
 Además de ello se solicitará una evaluación de satisfacción del curso.
 
-Requisitos:
+**Requisitos:**
+
 - Manejo PC nivel usuario.
-- Cada participante debe traer un notebook con puerto USB disponible y sistema operativo Windows.
+- Cada participante debe traer un notebook con puerto USB disponible
 
 *Los materiales está incluidos en el valor del taller
 
-Modalidad: Presencial (12 horas) y virtual (X horas)
+**Materiales a entregar**
 
-Requisitos:
+- Arduino nano
+- Mini-Protoboard
+- Servomotor sg90
+- Motor DC
+- Sensor Tactiles - Infrarojo - Ultrasonicos - Final de carril
+- Anillo y Cinta LED REG direccionable
+- Modulo rele de dos canales 
+- Elementos electronica basica, cables, conectores
+
+**Modalidad:** 
+Presencial (12 horas) y virtual (X horas)
+
+**Requisitos:**
+
 - 80% de asistencia a talleres presenciales.
 - Exposición de actividad final
 - Completación de actividades no presenciales en plataforma de aprendizaje.
 
 
-Perfil y Número de participantes: 10 personas con interés en robótica mayores a 16 años.
-Duración: 12 horas cronológicas presenciales distribuidas en 4 clases semanales.
-Valor por persona: $
+**Perfil y Número de participantes:**
 
-RELATOR: Javier Herrera Cortés
-Ingeniero Civil Electrónico Universidad de Concepción.
-Ingeniero Desarrollo Sicom Electronics.
+- 10 personas con interés en robótica mayores a 16 años. (minimo 6 participantes)
+- Duración: 12 horas cronológicas presenciales distribuidas en 4 clases semanales.
+- Valor por persona: $15.000
+
+**RELATOR:**
+
+Javier Herrera Cortés
+
+- Ingeniero Civil Electrónico Universidad de Concepción.
+- Ingeniero Desarrollo Sicom Electronics.
