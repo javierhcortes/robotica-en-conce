@@ -1,7 +1,3 @@
-
-instructables. com
-Introducción a los robots
-14-18 minutos
 Introducción: Comenzando con los robots
 
 Construir robots es divertido, fácil y puede ser hecho por casi cualquier persona. No es necesario ser un genio y no se necesita experiencia previa en ingeniería. Lo único que se requiere es voluntad para experimentar y aprender. Aunque es fácil dejarse intimidar por la robótica porque incorpora una amplia gama de habilidades en una variedad de disciplinas, no hay razón para ello. Los fundamentos son en realidad bastante -- bueno -- fundamentales. En menos de un mes usted puede aprender lo básico necesario para empezar a construir robots por su cuenta. Si usted es un aficionado, aspirante a ingeniero, artista, científico, o simplemente curioso, sigue es un camino que puede utilizar para comenzar su viaje en el mundo salvaje de la robótica.
