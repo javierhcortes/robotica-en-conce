@@ -1,26 +1,28 @@
 Introducción: Comenzando con los robots
 
-Construir robots es divertido, fácil y puede ser hecho por casi cualquier persona. No es necesario ser un genio y no se necesita experiencia previa en ingeniería. Lo único que se requiere es voluntad para experimentar y aprender. Aunque es fácil dejarse intimidar por la robótica porque incorpora una amplia gama de habilidades en una variedad de disciplinas, no hay razón para ello. Los fundamentos son en realidad bastante -- bueno -- fundamentales. En menos de un mes usted puede aprender lo básico necesario para empezar a construir robots por su cuenta. Si usted es un aficionado, aspirante a ingeniero, artista, científico, o simplemente curioso, sigue es un camino que puede utilizar para comenzar su viaje en el mundo salvaje de la robótica.
-¿Qué es un robot?
+Construir robots es divertido, fácil y puede ser hecho por casi cualquier persona. No es necesario ser un genio y no se necesita experiencia previa en ingeniería. Lo único que se requiere es voluntad para experimentar y aprender.
 
-Hay muchas escuelas de robótica y muchos pensamientos sobre lo que constituye un robot. Por el bien del argumento, a continuación se presenta la definición que usaremos al avanzar.
+Aunque es fácil dejarse intimidar por la robótica porque incorpora una amplia gama de habilidades en una variedad de disciplinas, no hay razón para ello. Los fundamentos son en realidad bastante bueno fundamentales. 
 
+En menos de un mes se puede aprender lo básico necesario para empezar a construir robots por su cuenta. Si tu eres un aficionado, aspirante a ingeniero, artista, científico o simplemente curioso, en este taller aprenderas los fundamentos para comenzar tu viaje en el mundo salvaje de la robótica.
 
-A ROBOT IS:
+###¿Qué es un robot?
 
-Autonómicos
+Hay muchas escuelas de robótica y muchos pensamientos sobre lo que constituye un robot. Para simplificar las cosas, definiremos como robots al objeto que tenga las siguientes caracteristicas
+
+ * Autonómos
 
 Tiene motores (u otros actuadores) que le permiten moverse libremente por el espacio sin necesidad de intervención humana.
+ 
+ * Inteligente
 
-Inteligente
+Tiene una computadora que le permite razonar, resolver problemas y tomar decisiones sobre su comportamiento.
 
-Tiene una computadora que le permite razonar, resolver problemas y tomar decisiones sobre su comportamiento y el medio ambiente.
-
-Responde
+* Responde
 
 Dispone de sensores que le permiten detectar y responder a estímulos ambientales.
 
-Social
+* Social
 
 Puede interactuar con otros seres autónomos, inteligentes y receptivos.
 
