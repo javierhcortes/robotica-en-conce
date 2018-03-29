@@ -1,5 +1,6 @@
 ## Taller de Robotica para principiantes
 
+Dudas y consultas al correo : javierhcortes@gmail.com
 
 ![Banner](banner240x120.jpg)
 
