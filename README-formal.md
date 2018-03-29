@@ -1,12 +1,9 @@
-## Taller de Robotica para principiantes
-
-
-![Banner](banner240x120.jpg)
-
+## Taller de Robotica
 ### ROBÓTICA PARA MI, PARA TÍ Y PARA TODOS.
+
 **Descripción:**
 
-Se propone como un taller teórico-práctico que busca introducir a los participantes en las principales temáticas de la robótica, considerando partes mecánicas y sistemas electrónicos con microcontroladores.
+Se propone como un laboratorio teórico-práctico que busca introducir a los participantes en las principales temáticas de la robótica, considerando partes mecánicas y sistemas electrónicos con microcontroladores.
 El curso pretende además, entregar herramientas teóricas y prácticas que permiten integrar la mecánica, electrónica, programación y control involucrada en diseños robóticos.
 
 **Objetivos:**
@@ -16,6 +13,15 @@ Conceptuales:
 - Comprender sobre conceptos elementales los fundamentos de electricidad y mecanica.
 - Conocer el funcionamiento de los principales componentes de un sistema robótico: sensores, actuadores, efectores y sistema de control.
 - Comprender los fundamentos de la programación en arduino para el manejo de logica
+
+Procedimentales:
+
+- Aplicar los conceptos claves de la robótica para manipular sensores, actuadores y microcontroladores
+- Diseñar un sistema robótico basado en la utilización de sensores y actuadores que interactúen con el mundo real.
+
+Actitudinales:
+
+- Valorar el aporte de la robótica en diario vivir.
 
 **Resultados de aprendizaje:**
 
@@ -32,6 +38,7 @@ Clases expositivas en las que se se genere una interacción entre los participan
 
 - Análisis de casos: este tipo de actividades, tanto presenciales como no presenciales, tienen por objetivo incentivar al participante a que reflexione y analice el contenido del taller.
 - Dinámicas Grupales: actividad orientada a que los participantes desarrollen sus habilidades en la construcción de un robot colaborativamente.
+- Plenarios de debate: actividad orientada al aprendizaje de confrontación de ideas y enfoques.
 - Exposición de productos: Al finalizar el taller todos los participantes expondrá su producto en una actividad de cierre.
 
 **Contenidos:**
@@ -80,26 +87,43 @@ Clases expositivas en las que se se genere una interacción entre los participan
 - Lectura e interpretación de sensores
 - Casos ejemplos de sensores
 
+**Evaluación:**
 
-**Kit de Materiales a entregar**
+A lo largo del taller se realizarán actividades formativas de las temáticas trabajadas. Junto con ello, al término del taller se realizará una evaluación grupal que incluye la construcción de un robot. La cual implicará una exposición por los (as) participantes de cada grupo.
+Además de ello se solicitará una evaluación de satisfacción del curso.
+
+**Requisitos:**
+
+- 80% de asistencia a talleres presenciales.
+- Exposición de actividad final
+- Completación de actividades no presenciales en plataforma de aprendizaje.
+
+**Materiales a entregar**
 
 - Arduino nano
 - Mini-Protoboard
 - Servomotor sg90
-- 2 x Motor DC con caja reductora y ruedas
-- Puente H de dos canales
-- Sensor Tactil - Infrarojo - Ultrasónicos - Final de carril
-- Anillo LED RGB direccionable
-- Portapilas y pilas
+- Motor DC
+- Sensor Tactiles - Infrarojo - Ultrasónicos - Final de carril
+- Anillo y Cinta LED REG direccionable
+- Modulo rele de dos canales
 - Elementos electronica basica, cables, conectores
 
 *Los materiales está incluidos en el valor del taller, con excepción del notebook que cada participante deberá traer.
+
+**Requerimientos del espacio :**
+
+- Disponibilidad de mesas y sillas para 12 personas
+- Enchufes y alargadores para los computadores personales
+- Conexion Internet 
+- Proyector 
+- Pizarra y plumones.
 
 **Perfil y Número de participantes:**
 
 - Máximo 10 personas con interés en robótica mayores a 16 años. (mínimo 6 participantes)
 - Duración: 12 horas cronológicas presenciales distribuidas en 4 clases semanales.
-- Valor por persona: $20.000
+- Valor por persona: $18.000
 
 **Modalidad:**
 
@@ -112,8 +136,6 @@ Javier Herrera Cortés
 - Ingeniero Civil Electrónico Universidad de Concepción.
 - Ingeniero Desarrollo Sicom Electronics.
 
-
-**Inscripciones**
-[LLenando el formulario aqui](https://goo.gl/forms/JqlZHWYbmFTxD2T42)
+[Link Renderizado Web](https://javierhcortes.github.io/taller-robotica/)
 
 
