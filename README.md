@@ -94,8 +94,9 @@ Clases expositivas en las que se se genere una interacción entre los participan
 - Portapilas y pilas
 - Elementos electronica basica, cables, conectores
 
-*Los materiales está incluidos en el valor del taller, con excepción del notebook que cada participante deberá traer.
+*Los materiales está incluidos en el valor del taller, con excepción del notebook que cada participante deberá traer.*
 
+ 
 **Perfil y Número de participantes:**
 
 - Máximo 10 personas con interés en robótica mayores a 16 años. (mínimo 6 participantes)
