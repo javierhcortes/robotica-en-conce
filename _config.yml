@@ -1,23 +1,4 @@
-#theme: jekyll-theme-dinky
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin  : "dark"
-
-# Site Settings
-locale                   : "en-US"
-title                    : "Robotica en conce"
-title_separator          : "-"
-name                     : "Javier"
-description              : "description---"
-
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/468x60.jpg"
-
-
-
-
-
-
-  # Welcome to Jekyll!
+# Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
@@ -30,21 +11,22 @@ teaser                   : "/assets/images/468x60.jpg"
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme           : "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin  : "dark"
+minimal_mistakes_skin  : "air"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Robotica en conce"
-title_separator          : "-"
-name                     : "Javier"
-description              : "description---"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+locale                   : "es"
+title                    : "Robótica en conce"
+title_separator          : "|"
+name                     : "Javier Herrera Cortés"
+description              : "taller de robotica para principiantes. Rozas 520 Concepcion Bio-Bio Chile"
+url                      : "http://roboticaenconce.cl" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/468x60.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "javierhcortes/robotica-en-conce" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assets/images/250x250.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
+read_time                : false
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -117,7 +99,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "JAvie Herrera Cortés"
+  name             : "JAvier Herrera Cortés"
   avatar           : "/assets/images/bio.jpg"
   bio              : "Inventor a medio tiempo"
   location         : "Concepcion, Bio-bio"
@@ -130,7 +112,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "javierhcortes"
   gitlab           :
   google_plus      :
   keybase          :

@@ -2,7 +2,7 @@
 
 Dudas y consultas al correo : javierhcortes@gmail.com
 
-![Banner](banner240x120.jpg)
+![Banner](assets/images/240x120.jpg)
 
 ### ROBÓTICA PARA MI, PARA TÍ Y PARA TODOS.
 **Descripción:**
@@ -96,7 +96,7 @@ Clases expositivas en las que se se genere una interacción entre los participan
 
 *Los materiales está incluidos en el valor del taller, con excepción del notebook que cada participante deberá traer.*
 
- 
+
 **Perfil y Número de participantes:**
 
 - Máximo 10 personas con interés en robótica mayores a 16 años. (mínimo 6 participantes)
@@ -117,5 +117,3 @@ Javier Herrera Cortés
 
 **Inscripciones**
 [LLenando el formulario aqui](https://goo.gl/forms/JqlZHWYbmFTxD2T42)
-
-
