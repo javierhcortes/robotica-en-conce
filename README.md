@@ -7,16 +7,16 @@ Dudas y consultas al correo : javierhcortes@gmail.com
 ### ROBÓTICA PARA MI, PARA TÍ Y PARA TODOS.
 **Descripción:**
 
-Se propone como un taller teórico-práctico que busca introducir a los participantes en las principales temáticas de la robótica, considerando partes mecánicas y sistemas electrónicos con microcontroladores.
+Se propone como un taller teórico-práctico que busca introducir a los participantes en las principales temáticas de la robótica, considerando partes mecánicas y sistemas electrónicos con micro-controladores.
 El curso pretende además, entregar herramientas teóricas y prácticas que permiten integrar la mecánica, electrónica, programación y control involucrada en diseños robóticos.
 
 **Objetivos:**
 
 Conceptuales:
 
-- Comprender sobre conceptos elementales los fundamentos de electricidad y mecanica.
-- Conocer el funcionamiento de los principales componentes de un sistema robótico: sensores, actuadores, efectores y sistema de control.
-- Comprender los fundamentos de la programación en arduino para el manejo de logica
+- Comprender sobre conceptos elementales los fundamentos de electricidad y mecánica.
+- Conocer el funcionamiento de los principales componentes de un sistema robótico: sensores, actuadores y sistema de control.
+- Comprender los fundamentos de la programación en arduino para el manejo de lógica
 
 **Resultados de aprendizaje:**
 
@@ -91,8 +91,8 @@ Clases expositivas en las que se se genere una interacción entre los participan
 - Puente H de dos canales
 - Sensor Tactil - Infrarojo - Ultrasónicos - Final de carril
 - Anillo LED RGB direccionable
-- Portapilas y pilas
-- Elementos electronica basica, cables, conectores
+- Porta-pilas y pilas
+- Elementos electrónica básica, cables, conectores
 
 *Los materiales está incluidos en el valor del taller, con excepción del notebook que cada participante deberá traer.
 

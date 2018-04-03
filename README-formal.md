@@ -1,22 +1,22 @@
-## Taller de Robotica
+## Taller de Robótica
 ### ROBÓTICA PARA MI, PARA TÍ Y PARA TODOS.
 
 **Descripción:**
 
-Se propone como un laboratorio teórico-práctico que busca introducir a los participantes en las principales temáticas de la robótica, considerando partes mecánicas y sistemas electrónicos con microcontroladores.
-El curso pretende además, entregar herramientas teóricas y prácticas que permiten integrar la mecánica, electrónica, programación y control involucrada en diseños robóticos.
+Se propone como un laboratorio teórico-práctico que busca introducir a los participantes en las principales temáticas de la robótica, considerando partes mecánicas y sistemas electrónicos con micro-controladores.
+El curso pretende además, entregar herramientas teóricas y prácticas que permiten integrar la mecánica, electrónica, programación y control involucrada en diseños robóticas.
 
 **Objetivos:**
 
 Conceptuales:
 
-- Comprender sobre conceptos elementales los fundamentos de electricidad y mecanica.
-- Conocer el funcionamiento de los principales componentes de un sistema robótico: sensores, actuadores, efectores y sistema de control.
+- Comprender sobre conceptos elementales los fundamentos de electricidad y mecánica.
+- Conocer el funcionamiento de los principales componentes de un sistema robótico: sensores, actuadores y sistema de control.
 - Comprender los fundamentos de la programación en arduino para el manejo de logica
 
 Procedimentales:
 
-- Aplicar los conceptos claves de la robótica para manipular sensores, actuadores y microcontroladores
+- Aplicar los conceptos claves de la robótica para manipular sensores, actuadores y micro-controladores
 - Diseñar un sistema robótico basado en la utilización de sensores y actuadores que interactúen con el mundo real.
 
 Actitudinales:
@@ -109,14 +109,14 @@ Además de ello se solicitará una evaluación de satisfacción del curso.
 - Modulo rele de dos canales
 - Elementos electronica basica, cables, conectores
 
-*Los materiales está incluidos en el valor del taller, con excepción del notebook que cada participante deberá traer.
+*Los materiales está incluidos en el valor del taller, con excepción del note-book que cada participante deberá traer.*
 
 **Requerimientos del espacio :**
 
 - Disponibilidad de mesas y sillas para 12 personas
 - Enchufes y alargadores para los computadores personales
-- Conexion Internet 
-- Proyector 
+- Conexión Internet
+- Proyector
 - Pizarra y plumones.
 
 **Perfil y Número de participantes:**
@@ -137,5 +137,3 @@ Javier Herrera Cortés
 - Ingeniero Desarrollo Sicom Electronics.
 
 [Link Renderizado Web](https://javierhcortes.github.io/taller-robotica/)
-
-
