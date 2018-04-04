@@ -1,0 +1,12 @@
+# main links
+main:
+  - title: "Inscripciones"
+    url: https://goo.gl/forms/JqlZHWYbmFTxD2T42
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Posts Recientes"
+    url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/

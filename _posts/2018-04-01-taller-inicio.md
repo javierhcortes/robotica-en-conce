@@ -1,22 +1,26 @@
-## Taller de Robotica para principiantes
+---
+title: "Detalle del taller 'robotica para principantes'"
+permalink: /posts/primer-taller/
+toc : false
+---
 
+Primer taller de robotica en conce!
 Dudas y consultas al correo : javierhcortes@gmail.com
 
-![Banner](assets/images/240x120.jpg)
+![Banner](/../assets/images/240x120.jpg)
 
-### ROBÓTICA PARA MI, PARA TÍ Y PARA TODOS.
-**Descripción:**
+**Descripción del taller:**
 
-Se propone como un taller teórico-práctico que busca introducir a los participantes en las principales temáticas de la robótica, considerando partes mecánicas y sistemas electrónicos con micro-controladores.
+Se propone como un taller teórico-práctico que busca introducir a los participantes en las principales temáticas de la robótica, considerando partes mecánicas y sistemas electrónicos con microcontroladores.
 El curso pretende además, entregar herramientas teóricas y prácticas que permiten integrar la mecánica, electrónica, programación y control involucrada en diseños robóticos.
 
 **Objetivos:**
 
 Conceptuales:
 
-- Comprender sobre conceptos elementales los fundamentos de electricidad y mecánica.
-- Conocer el funcionamiento de los principales componentes de un sistema robótico: sensores, actuadores y sistema de control.
-- Comprender los fundamentos de la programación en arduino para el manejo de lógica
+- Comprender sobre conceptos elementales los fundamentos de electricidad y mecanica.
+- Conocer el funcionamiento de los principales componentes de un sistema robótico: sensores, actuadores, efectores y sistema de control.
+- Comprender los fundamentos de la programación en arduino para el manejo de logica
 
 **Resultados de aprendizaje:**
 
@@ -91,10 +95,12 @@ Clases expositivas en las que se se genere una interacción entre los participan
 - Puente H de dos canales
 - Sensor Tactil - Infrarojo - Ultrasónicos - Final de carril
 - Anillo LED RGB direccionable
-- Porta-pilas y pilas
-- Elementos electrónica básica, cables, conectores
+- Portapilas y pilas
+- Elementos electronica basica, cables, conectores
 
-*Los materiales está incluidos en el valor del taller, con excepción del notebook que cada participante deberá traer.*
+![Banner](/../assets/images/kit.jpg)
+
+*Los materiales está incluidos en el valor del taller, con excepción del notebook que cada participante debe traer.*
 
 
 **Perfil y Número de participantes:**
@@ -116,4 +122,4 @@ Javier Herrera Cortés
 
 
 **Inscripciones**
-[LLenando el formulario aqui](https://goo.gl/forms/JqlZHWYbmFTxD2T42)
+[Llenando el formulario aqui](https://goo.gl/forms/JqlZHWYbmFTxD2T42)
