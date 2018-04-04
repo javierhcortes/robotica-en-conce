@@ -1,13 +1,19 @@
 ---
-title: "Detalle del taller 'robotica para principantes'"
+title: "Descripción del taller 'robótica para principiantes'"
 permalink: /posts/primer-taller/
-toc : false
+og_image: assets/images/afiche.jpg
+og_description : Revisa el programa del taller 'robótica para principiantes'
+subtitle: Fabricar un robot de dos ruedas es genial para aprender conceptos de la mecánica, electrónica e ingeniería. Ven a aprender sobre los temas fundamentales de la robótica en un taller diseñado para los que están partiendo en el tema
+header:
+  og_image: assets/images/afiche.jpg
+  og_title: Descripción del taller 'robótica para principiantes'
+  og_description : Revisa el programa del taller 'robótica para principiantes'
 ---
-
-Primer taller de robotica en conce!
-Dudas y consultas al correo : javierhcortes@gmail.com
-
 ![Banner](/../assets/images/afiche.jpg)
+
+ - Primer taller de www.roboticaenconce.cl!
+ - *Dudas y consultas al correo : javierhcortes@gmail.com*
+ - *Inscripciones* [Llenando el formulario](https://goo.gl/forms/JqlZHWYbmFTxD2T42)
 
 **Descripción del taller:**
 
