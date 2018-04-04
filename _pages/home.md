@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5b709f"
-  overlay_image: /assets/images/afiche.jpg
+  overlay_image: /assets/images/afiche-ligth.jpg
   cta_label: "<i class='fa fa-child'></i> Inscripciones Aqui!"
   cta_url: "https://goo.gl/forms/JqlZHWYbmFTxD2T42"
   caption:
@@ -11,7 +11,7 @@ excerpt: 'Talleres de robótica para penquistas! <br/> Ven a fabricar con nosotr
 
 #<small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.10.1">Latest release v4.11.1</a></small><br/><br/> '
 feature_row:
-  - image_path: /assets/images/kit.jpg
+  - image_path: /assets/images/kit-ligth.jpg
     #alt: "customizable"
     title: "Talleres"
     excerpt: "Estamos construyendo talleres para cada nivel de aprendizaje."

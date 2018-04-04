@@ -1,15 +1,11 @@
 ---
 title: "Descripción del taller 'robótica para principiantes'"
+date: 2018-04-01 12:00:00 -0300
 permalink: /posts/primer-taller/
-og_image: assets/images/afiche.jpg
-og_description : Revisa el programa del taller 'robótica para principiantes'
-subtitle: Fabricar un robot de dos ruedas es genial para aprender conceptos de la mecánica, electrónica e ingeniería. Ven a aprender sobre los temas fundamentales de la robótica en un taller diseñado para los que están partiendo en el tema
-header:
-  og_image: assets/images/afiche.jpg
-  og_title: Descripción del taller 'robótica para principiantes'
-  og_description : Revisa el programa del taller 'robótica para principiantes'
+description : Revisa el programa del taller 'robótica para principiantes'
+subtitle: 'Fabricar un robot de dos ruedas es genial para aprender conceptos de la mecánica, electrónica e ingeniería. Ven a aprender sobre los temas fundamentales de la robótica en un taller diseñado para los que están partiendo en el tema'
 ---
-![Banner](/../assets/images/afiche.jpg)
+![Banner](/../assets/images/afiche-ligth.jpg)
 
  - Primer taller de www.roboticaenconce.cl!
  - *Dudas y consultas al correo : javierhcortes@gmail.com*
@@ -104,7 +100,7 @@ Clases expositivas en las que se se genere una interacción entre los participan
 - Portapilas y pilas
 - Elementos electronica basica, cables, conectores
 
-![Banner](/../assets/images/kit.jpg)
+![Banner](/../assets/images/kit-ligth.jpg)
 
 *Los materiales está incluidos en el valor del taller, con excepción del notebook que cada participante debe traer.*
 
