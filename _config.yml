@@ -24,7 +24,7 @@ description              : "taller de robotica para principiantes. Rozas 520 Con
 url                      : "http://roboticaenconce.cl" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "javierhcortes/robotica-en-conce" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/250x250.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/240x120.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 read_time                : false
 words_per_minute         : 200
@@ -100,8 +100,8 @@ analytics:
 # Site Author
 author:
   name             : "JAvier Herrera Cortés"
-  avatar           : "/assets/images/bio.jpg"
-  bio              : "Inventor a medio tiempo"
+  avatar           : "/assets/images/bio-2018.jpg"
+  bio              : "Inventor"
   location         : "Concepcion, Bio-bio"
   email            : "javierhcortes@gmail.com"
   uri              :
@@ -112,7 +112,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "javierhcortes"
+  github           : "javierhcortes/robotica-en-conce"
   gitlab           :
   google_plus      :
   keybase          :
