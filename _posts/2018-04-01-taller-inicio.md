@@ -7,7 +7,7 @@ toc : false
 Primer taller de robotica en conce!
 Dudas y consultas al correo : javierhcortes@gmail.com
 
-![Banner](/../assets/images/240x120.jpg)
+![Banner](/../assets/images/afiche.jpg)
 
 **Descripción del taller:**
 
