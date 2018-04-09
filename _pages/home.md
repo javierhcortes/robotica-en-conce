@@ -3,9 +3,9 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5b709f"
-  overlay_image: /assets/images/afiche-ligth.jpg
-  cta_label: "<i class='fa fa-child'></i> Inscripciones Aqui!"
-  cta_url: "https://goo.gl/forms/JqlZHWYbmFTxD2T42"
+  overlay_image: /assets/images/pcb2.jpg
+  cta_label: "<i class='fa fa-child'></i> Detalle del curso e inscripciones!"
+  cta_url: "/posts/primer-taller/"
   caption:
 excerpt: 'Talleres de robótica para penquistas! <br/> Ven a fabricar con nosotros tu próximo robot!'
 
@@ -13,11 +13,11 @@ excerpt: 'Talleres de robótica para penquistas! <br/> Ven a fabricar con nosotr
 feature_row:
   - image_path: /assets/images/kit-ligth.jpg
     #alt: "customizable"
-    title: "Talleres"
+    title: "Proximos talleres"
     excerpt: "Estamos construyendo talleres para cada nivel de aprendizaje."
     url: "/posts/primer-taller/"
     btn_class: "btn--primary"
-    btn_label: "Info del Taller"
+    btn_label: "Info Taller : Robotica para principiantes"
 
   - image_path: /assets/images/240x120.jpg
     #alt: "fully responsive"
@@ -27,7 +27,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Ubicacion"
 
-  - image_path: /assets/images/code.jpg
+  - image_path: /assets/images/code-re.jpg
     #alt: "100% free"
     title: "100% Open Source"
     excerpt: "Todos nuestros talleres, proyectos y códigos son de código libre."
@@ -37,8 +37,11 @@ feature_row:
 github:
   - excerpt: ''
 intro:
-  - excerpt: 'Próximo taller : Robótica para principiantes - 14 de Abril <br /> Centro de Creación Concepción  -
-  <a href="https://goo.gl/forms/JqlZHWYbmFTxD2T42">Inscripciones abiertas </a>'
+  - excerpt: 'Próximo taller : Robótica para principiantes <br/>
+  Fecha: Sábados 14, 21, 28 de abril y Sábado 5 de mayo de 9:30 a 12:00 <br/>
+  Lugar: Centro de Creación Concepción - Martínez de Rosas 520, Concepción<br/>
+  Valor Inscripción : $20.000. Se cancela al momento de iniciar el taller. <br/>
+  <a href="/posts/primer-taller">Inscripciones abiertas </a>'
 ---
 
 {% include feature_row id="intro" type="center" %}

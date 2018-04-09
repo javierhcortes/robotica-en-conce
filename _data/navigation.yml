@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Inscripciones"
-    url: https://goo.gl/forms/JqlZHWYbmFTxD2T42
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Taller : Robotica para principiantes"
+    url: /posts/primer-taller/
+  - title : "Ubicacion"
+    url : https://www.google.com/maps/place/Centro+de+Creacion+de+Concepcion/@-36.8221184,-73.0572155,17z/data=!3m1!4b1!4m5!3m4!1s0x9669b5c5ac43a1c7:0x5e3669cfa997f17a!8m2!3d-36.8221184!4d-73.0550268?shorturl=1
   - title: "Posts Recientes"
     url: /year-archive/
   # - title: "Sample Collections"

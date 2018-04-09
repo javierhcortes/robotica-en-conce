@@ -7,7 +7,7 @@ subtitle: 'Fabricar un robot de dos ruedas es genial para aprender conceptos de 
 ---
 ![Banner](/../assets/images/afiche-ligth.jpg)
 
- - Primer taller de www.roboticaenconce.cl!
+ - Primer taller de **roboticaenconce.cl**!
  - *Dudas y consultas al correo : javierhcortes@gmail.com*
  - *Inscripciones* [Llenando el formulario](https://goo.gl/forms/JqlZHWYbmFTxD2T42)
 
@@ -21,7 +21,7 @@ El curso pretende además, entregar herramientas teóricas y prácticas que perm
 Conceptuales:
 
 - Comprender sobre conceptos elementales los fundamentos de electricidad y mecanica.
-- Conocer el funcionamiento de los principales componentes de un sistema robótico: sensores, actuadores, efectores y sistema de control.
+- Conocer el funcionamiento de los principales componentes de un sistema robótico: sensores, actuadores, procesadores y sistema de control.
 - Comprender los fundamentos de la programación en arduino para el manejo de logica
 
 **Resultados de aprendizaje:**
