@@ -1,30 +1,15 @@
-Introducción: Comenzando con los robots
 
-Construir robots es divertido, fácil y puede ser hecho por casi cualquier persona. No es necesario ser un genio y no se necesita experiencia previa en ingeniería. Lo único que se requiere es voluntad para experimentar y aprender.
-
-Aunque es fácil dejarse intimidar por la robótica porque incorpora una amplia gama de habilidades en una variedad de disciplinas, no hay razón para ello. Los fundamentos son en realidad bastante bueno fundamentales. 
-
-En menos de un mes se puede aprender lo básico necesario para empezar a construir robots por su cuenta. Si tu eres un aficionado, aspirante a ingeniero, artista, científico o simplemente curioso, en este taller aprenderas los fundamentos para comenzar tu viaje en el mundo salvaje de la robótica.
-
-###¿Qué es un robot?
-
-Hay muchas escuelas de robótica y muchos pensamientos sobre lo que constituye un robot. Para simplificar las cosas, definiremos como robots al objeto que tenga las siguientes caracteristicas
-
- * Autonómos
-
-Tiene motores (u otros actuadores) que le permiten moverse libremente por el espacio sin necesidad de intervención humana.
+ ## Revision del Kit
+ =============
+ - Revision del Kit
+ - algunas Herramientas
+ - explicacion funcionamiento prototipos
+ - conexion arduino a pc
+ - ejmplos en video
  
- * Inteligente
 
-Tiene una computadora que le permite razonar, resolver problemas y tomar decisiones sobre su comportamiento.
 
-* Responde
-
-Dispone de sensores que le permiten detectar y responder a estímulos ambientales.
-
-* Social
-
-Puede interactuar con otros seres autónomos, inteligentes y receptivos.
+ =============
 
 Herramientas necesarias
 
@@ -43,7 +28,7 @@ Antes de repasar algunos de ellos en más profundidad a continuación, aquí est
 (x1) Tornillo de banco
 (x1) Taladro eléctrico
 (x1) Brocas de perforación
-(x1) Destornilladores
+(x1) DeRO101-dia1-modulo2stornilladores
 (x1) Mini destornilladores
 (x1) Tuercas y tornillos
 (x1) Corbatas con cremallera
