@@ -6,7 +6,7 @@ description : Se abordan temas generales de la robótica
 ---
 # __Introducción a la Robótica__
 
-![Banner](../assets/images/240x120.jpg)
+![Banner](/../assets/images/240x120.jpg)
 
 Bienvenido al taller **Robótica para principiantes**, donde aprenderemos como fabricar nuestro primer robot. No es necesario tener experiencia previa o ser un genio para comenzar, solo necesitamos motivación y algunos materiales!
 
@@ -32,7 +32,7 @@ Esto significa que una tostadora, una lámpara o un automóvil no se considerar�
 
 1) **Robots terrestres con ruedas, orugas y patas**
 
-![1](../assets/images/tipos-robots/robot-ruedas.jpg)
+![1](/../assets/images/tipos-robots/robot-ruedas.jpg)
 
 Los robots terrestres, especialmente los de ruedas, son los robots móviles más populares entre los principiantes, ya que por lo general requieren la menor inversión a la vez que proporcionan una exposición significativa a la robótica. Por otro lado, el tipo más complejo de robots es el humanoide (semejante a un humano), ya que requiere muchos grados de libertad y sincronización del movimiento de muchos motores, y utiliza muchos sensores.
 
@@ -49,7 +49,7 @@ Desventajas
 
 2) **Robots Aéreos**
 
-![2](../assets/images/tipos-robots/robot-aereo.jpg)
+![2](/../assets/images/tipos-robots/robot-aereo.jpg)
 
 
  Los UAV (vehículo autónomo no tripulado por sus siglas en ingles) son muy atractivos y está totalmente dentro de la capacidad de muchos entusiastas de los robots. Sin embargo, las ventajas de construir este tipo de robots, especialmente si usted es un principiante, todavía no han superado los riesgos. Al considerar un vehículo aéreo, la mayoría de los aficionados todavía utilizan vehículos aéreos comerciales (drones) controlados por control remoto.
@@ -64,7 +64,7 @@ Desventajas
 
 3) **Barcos acuáticos, submarinos y robots nadadores**
 
-![3](../assets/images/tipos-robots/robot-submarino.jpg)
+![3](/../assets/images/tipos-robots/robot-submarino.jpg)
 
 
 Un número cada vez mayor de aficionados, instituciones y empresas están desarrollando vehículos submarinos no tripulados. Todavía hay muchos obstáculos que superar para hacer que los robots subacuáticos sean atractivos para la comunidad robótica en general, aunque en los últimos años varias empresas han comercializado "robots" de limpieza de piscinas. Los vehículos submarinos pueden utilizar lastre (aire comprimido y compartimentos inundados), propulsores, cola y aletas o incluso aletas para sumergirse. Otros robots acuáticos como los limpia fondos son productos comerciales útiles.
@@ -85,7 +85,7 @@ Desventajas
 
 4) **Brazos robóticos estacionarios y manipuladores**
 
-![4](../assets/images/tipos-robots/robot-brazo.jpg)
+![4](/../assets/images/tipos-robots/robot-brazo.jpg)
 
 
 Aunque no entran en la categoría de robótica móvil, el campo de la robótica comenzó esencialmente con brazos roboticos con efectores (dispositivos que se adhieren al extremo de un brazo, como pinzas, electroimanes, etc.). Los brazos y las pinzas son la mejor manera de que un robot interactúe con el entorno que está explorando. Los brazos robóticos simples pueden tener un solo movimiento, mientras que los brazos más complejos pueden tener una docena o más de grados de libertad únicos.
@@ -111,11 +111,11 @@ Para que un robot sea capaz de cumplir una tarea asignada, necesita en teoría t
 
 Los sensores son elementos encargados de observar el mundo alrededor del robot. La información que nos entrega, sera de manera directa o indirecta la única forma de determinar si estamos llevando a cabo la tarea asignada.
 
-![sensores](../assets/images/tipos-robots/sensores-general.jpg)
+![sensores](/../assets/images/tipos-robots/sensores-general.jpg)
 
 Existe gran variedad de sensores para robotica en el mercado, siendo algunos muy fáciles de adquirir. Para comparar los sensores de un mismo tipo entre si, recurriremos a los conceptos de precisión y exactitud.
 
-![sensores-info](../assets/images/tipos-robots/sensores-info.png)
+![sensores-info](/../assets/images/tipos-robots/sensores-info.png)
 
 - *Precisión :* se refiere a la dispersión del conjunto de valores obtenidos de mediciones repetidas de una magnitud
 
@@ -131,7 +131,7 @@ Los actuadores o efectores, son los elementos que nos permiten ejecutar una tare
 
 Estos elementos son los encargados de orquestar a los sensores y actuadores para lograr la tarea definida. son el cerebro del robot y definen la capacidad de computo para resolver una tarea.
 
-![micros](../assets/images/tipos-robots/placas.jpeg)
+![micros](/../assets/images/tipos-robots/placas.jpeg)
 
 Existen en gran variedad, cada una adaptándose a las necesidades de computo, de cantidad de entradas/salidas y factores de forma.
 
@@ -145,7 +145,7 @@ Se refiera a la capacidad de determinar si una variable se puede manipular, ya s
 
  En general se utilizan dos tipos de controles en robótica, denominados de lazo abierto y lazo cerrado.
 
- ![control](../assets/images/tipos-robots/control-mejor.jpg)
+ ![control](/../assets/images/tipos-robots/control-mejor.jpg)
 
  Si bien el sistema de control a lazo cerrado permite disminuir el error de una variable controlada, este no es requisito en todos los sistemas robotizados.
  Por ejemplo una impresora 3D trabaja a lazo abierto, pero todos los drones (incluso los de juguete) tienen sistemas de control a lazo cerrado para reconocer el error en su velocidad y posición
