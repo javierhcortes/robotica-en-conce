@@ -18,9 +18,9 @@ description : cronograma del taller 'robótica para principiantes'
 
  * Inscripciones
  * Presentación taller
- * Programa y lineamientos y cronograma del taller
+ * Programa, lineamientos y cronograma del taller
  * Interacción con grupo
- * Visitar Web
+ * Visitar [Web](roboticaenconce.cl)
  * Entrega material digital
  * Entrega del Kit
 
@@ -57,9 +57,10 @@ description : cronograma del taller 'robótica para principiantes'
 * Armado circuito con botones - baterías - motores
 * Final de Carro
 
- *Si queda tiempo*
-    * Arduino controlando algunos sensores y actuadores
-    * Los demás sensores que queda por revisar
+*Si queda tiempo*
+
+  * Arduino controlando algunos sensores y actuadores
+  * Los demás sensores que queda por revisar
 
 # Día 3
 
@@ -78,7 +79,7 @@ description : cronograma del taller 'robótica para principiantes'
 
 ## Modulo 8 - Software
  * Lógica de programación
-    * variables, operadores, Iteración
+    * variables, operadores, iteración
  * Algoritmos, diagrama de bloque
 
 ## Modulo 9 - Practica de Software día 4
