@@ -37,11 +37,10 @@ feature_row:
 github:
   - excerpt: ''
 intro:
-  - excerpt: 'Próximo taller : Robótica para principiantes <br/>
+  - excerpt: 'Taller en curso : Robótica para principiantes <br/>
   Fecha: Sábados 14, 21, 28 de abril y Sábado 5 de mayo de 9:30 a 12:00 <br/>
   Lugar: Centro de Creación Concepción - Martínez de Rosas 520, Concepción<br/>
-  Valor Inscripción : $20.000. Se cancela al momento de iniciar el taller. <br/>
-  <a href="/posts/primer-taller">Inscripciones abiertas </a>'
+  <a href="/posts/primer-taller">Inscripciones cerradas! </a>'
 ---
 
 {% include feature_row id="intro" type="center" %}
