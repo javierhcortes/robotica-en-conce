@@ -20,9 +20,9 @@ El curso pretende además, entregar herramientas teóricas y prácticas que perm
 
 Conceptuales:
 
-- Comprender sobre conceptos elementales los fundamentos de electricidad y mecanica.
+- Comprender sobre conceptos elementales los fundamentos de electricidad y mecánica.
 - Conocer el funcionamiento de los principales componentes de un sistema robótico: sensores, actuadores, procesadores y sistema de control.
-- Comprender los fundamentos de la programación en arduino para el manejo de logica
+- Comprender los fundamentos de la programación en arduino para el manejo de lógica
 
 **Resultados de aprendizaje:**
 
@@ -38,7 +38,7 @@ Se espera que los(as) participantes al finalizar el taller logren:
 Clases expositivas en las que se se genere una interacción entre los participantes del curso con los expositores para generar oportunidades de aprendizaje para todos los involucrados.
 
 - Análisis de casos: este tipo de actividades, tanto presenciales como no presenciales, tienen por objetivo incentivar al participante a que reflexione y analice el contenido del taller.
-- Dinámicas Grupales: actividad orientada a que los participantes desarrollen sus habilidades en la construcción de un robot colaborativamente.
+- Dinámicas Grupales: actividad orientada a que los participantes desarrollen sus habilidades en la construcción de un robot.
 - Exposición de productos: Al finalizar el taller todos los participantes expondrá su producto en una actividad de cierre.
 
 **Contenidos:**

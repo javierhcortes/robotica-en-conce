@@ -13,11 +13,11 @@ excerpt: 'Talleres de robótica para penquistas! <br/> Ven a fabricar con nosotr
 feature_row:
   - image_path: /assets/images/kit-ligth.jpg
     #alt: "customizable"
-    title: "Proximos talleres"
+    title: "Próximos talleres"
     excerpt: "Estamos construyendo talleres para cada nivel de aprendizaje."
     url: "/posts/primer-taller/"
     btn_class: "btn--primary"
-    btn_label: "Info Taller : Robotica para principiantes"
+    btn_label: "Info Taller: Robótica para principiantes"
 
   - image_path: /assets/images/240x120.jpg
     #alt: "fully responsive"
@@ -37,7 +37,7 @@ feature_row:
 github:
   - excerpt: ''
 intro:
-  - excerpt: 'Taller en curso : Robótica para principiantes <br/>
+  - excerpt: 'Taller en curso: Robótica para principiantes <br/>
   Fecha: Sábados 14, 21, 28 de abril y Sábado 5 de mayo de 9:30 a 12:00 <br/>
   Lugar: Centro de Creación Concepción - Martínez de Rosas 520, Concepción<br/>
   <a href="/posts/primer-taller">Inscripciones cerradas! </a>'

@@ -1,33 +1,40 @@
-La electrónica da miedo, pero no es tan mala. No es necesario ser electricista para empezar a aprender electrónica. Ni siquiera necesita enviar por correo un folleto gratis. Todo lo que necesita hacer es seguir este sencillo tutorial para comenzar.
+La electrónica da miedo, pero no es tan mala. No es necesario ser electricista para empezar a aprender electrónica. Todo lo que necesita hacer es seguir este sencillo tutorial para comenzar.
 
 Aquí se presenta una visión general simplificada de la electrónica necesaria para la robótica práctica. Apenas estaremos arañando la superficie de la ciencia y la tecnología detrás de la electrónica. Para un conocimiento más profundo, usted puede tomar la clase de Electrónica.
 
-Para seguir los pasos posteriores de esta lección -aunque no es necesario- necesitarás un servo de rotación continua y un soporte para pilas AA 4x.
-
 ¿Qué es la electrónica?
 
-La electrónica es la ciencia y la tecnología que regula el flujo de electricidad. En pocas palabras, te permite mover los electrones. Si bien esto puede parecer una especie de actividad inútil, la regulación de los electrones ha permitido algunas de las innovaciones más importantes del siglo pasado, como computadoras, televisores, cohetes, cohetes, coches eléctricos, cohetes, videojuegos, teléfonos inteligentes, Tickle-Me-Elmo, hoverboards (tanto los que realmente flotan como los que no), y -por supuesto- cohetes.
+La electrónica es la ciencia y la tecnología que regula el flujo de electricidad. En pocas palabras, te permite mover los electrones. Si bien esto puede parecer una especie de actividad inútil, la regulación de los electrones ha permitido algunas de las innovaciones más importantes del siglo pasado, como computadoras, televisores, y -por supuesto- cohetes.
+
 Tensión, corriente y vatios
 
 Antes de que podamos regular la electricidad, tomemos un momento muy breve y hablemos de lo que es la electricidad.
 
-La electricidad es básicamente una forma de energía resultante de partículas cargadas. Puede existir como una carga estática o dinámicamente como una corriente.
+La electricidad es básicamente una forma de energía resultante de partículas cargadas. Puede existir como una carga estática o dinámica como una corriente.
 
-Nos ocuparemos exclusivamente de ello como una corriente. Una "corriente continua" de hecho. Puede que hayas oído hablar de la electricidad DC. En caso de que aún no lo haya deducido, la abreviatura DC significa Corriente Directa. Esto significa que la electricidad fluye en una sola dirección. Como sólo fluye en una dirección predecible, es fácil de regular.
+Nos ocuparemos exclusivamente de ello como una corriente. Una "corriente continua" de hecho. Puede que hayas oído hablar de la electricidad DC. En caso de que aún no lo haya deducido, la abreviatura DC significa Corriente Directa. Esto significa que la electricidad fluye en una sola dirección.
 
 Hay dos maneras de medir la Corriente Directa que usted debe conocer inmediatamente.
 
 Tensión
 
 símbolo: V
-La tensión se mide en voltios. Si usted pensara en la electricidad como un río, los voltios serían la altura del agua que se eleva por encima del lecho del río (o la profundidad que podría decirse).
+La tensión se mide en voltios. Si usted pensara en la electricidad como un río, los voltios serían la altura del agua que se eleva por encima del lecho del río.
 
-Actual
 
+Corriente
 Símbolo: A
-La corriente se mide en amperios (o - coloquialmente - amperios). Si los voltios son la profundidad del agua, entonces la corriente es la fuerza con la que el agua se está moviendo.
+La corriente se mide en amperios. Si los voltios son la profundidad del agua, entonces la corriente es la fuerza con la que el agua se está moviendo.
 
-Así como es posible tener un río realmente profundo moviéndose con poca fuerza, también es posible tener un río realmente poco profundo moviéndose con mucha fuerza. La tensión y la corriente deben ser consideradas en relación entre sí para tener una comprensión de su potencia combinada. La relación entre tensión y corriente se mide en vatios (símbolo: W). Esta es una expresión del poder general que se ejerce. Probablemente usted ya ha escuchado este término antes, y debería ser consciente de ello. Sin embargo, no es una medida particularmente importante para lo que haremos en esta clase.
+Así como es posible tener un río realmente profundo moviéndose con poca fuerza, también es posible tener un río poco profundo moviéndose con mucha fuerza. La tensión y la corriente deben ser consideradas en relación entre sí para tener una comprensión de su potencia combinada.
+
+Potencia
+Simbolo [W]
+La relación entre tensión y corriente se mide en Watss (símbolo: W). Esta es una expresión del poder general que se ejerce. Probablemente usted ya ha escuchado este término antes, y debería ser consciente de ello.
+
+resistencia
+~~Explicar resistencia~~
+
 
 Baterías
 
@@ -70,13 +77,15 @@ Portabaterías
 Hay dos cosas notables que decir sobre los soportes de la batería. En primer lugar, los soportes de la batería le permiten conectar fácilmente las baterías a su circuito.
 
 En segundo lugar, conectan varias baterías en serie. Para poder contar el número de celdas que contiene y multiplicarlo por 1,5 para calcular el voltaje del soporte de la batería. Por ejemplo, un soporte de batería con 6 pilas proporciona 9V (1,5 x 6 = 9).
+
+
 El multímetro
 
 Un multímetro es una herramienta utilizada para una amplia gama de mediciones relacionadas con la electrónica. O podría decirse que podrían medir mediciones múltiples... multi-metro... dolorosamente obvio - ¿verdad?
 
-Un multímetro típico medirá el voltaje, la corriente, la resistencia y la continuidad. Los multímetros más avanzados también medirán un sinnúmero de otras cosas que no son importantes para entrar en este cruce.
+Un multímetro típico medirá el voltaje, la corriente, la resistencia y la continuidad. Los multímetros más avanzados también medirán un sinnúmero de otras cosas que no son importantes para entrar en este curso.
 
-Ya hemos discutido el voltaje (fotografiado a la izquierda) y la corriente (fotografiado a la derecha), y ya deberías tener una idea aproximada de lo que eso significa. Sin embargo, tomemos un momento para discutir lo que significa resistencia y continuidad.
+~~Ya hemos discutido el voltaje (fotografiado a la izquierda) y la corriente (fotografiado a la derecha), y ya deberías tener una idea aproximada de lo que eso significa. Sin embargo, tomemos un momento para discutir lo que significa resistencia y continuidad.~~
 
 
 Otra cosa que se puede medir con un multímetro es la continuidad (fotografiada a la izquierda). Esto es simplemente una prueba para determinar si la electricidad puede fluir libremente entre dos puntos. En otras palabras, cuando se tocan las dos sondas con algo, se comprueba si hay un camino continuo de conductividad. Esto puede permitirle comprobar si algo es conductivo o no. También es muy importante para las pruebas para asegurarse de que las conexiones de soldadura sean correctas, y que la electricidad pueda fluir libremente.
