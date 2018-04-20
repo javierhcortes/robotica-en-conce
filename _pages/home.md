@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5b709f"
-  overlay_image: /assets/images/pcb2.jpg
+  overlay_image: /assets/images/front.JPG
   cta_label: "<i class='fa fa-child'></i> Detalle del curso e inscripciones!"
   cta_url: "/posts/primer-taller/"
   caption:
