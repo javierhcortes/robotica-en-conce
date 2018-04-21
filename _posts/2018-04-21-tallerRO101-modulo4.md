@@ -103,8 +103,9 @@ Tenga en cuenta que esto sólo funcionará si las baterías tienen exactamente e
 ### Medición con Multi-tester
 - Medir voltaje en la fuente de Voltaje
 - Medir voltaje en pilas y baterías
-- Medir resistencia de Motores KIT y motores aparte.
-- Medir resistencia de potenciómetro.
+- Medir resistencia de Motores KIT y motores aparte
+- Medir resistencia de potenciómetro
+
 ---
 
 ## Ley de ohm
@@ -140,27 +141,46 @@ Las señales digitales no se producen en el mundo físico como tales, sino que s
 
 ## Señales de entrada y salida (Análoga/Digital & digital/PWM)
 
-Señal PWM (Pulse-width modulation) señal de modulación por ancho de pulso.
-Donde:
-- PW (Pulse Width) o ancho de pulso, representa al ancho (en tiempo) del pulso.
-- length/period (periodo), o ciclo , es el tiempo total que dura la señal.
+Para los micro-controladores, tenemos dos tipos de direcciones en los que va la información. Entrada y Salida (IN/OUT) o (Sensores/Actuadores).
 
-La frecuencia se define como la cantidad de pulsos (estado on/off) por segundo y su expresión matemática es la inversa del periodo, como muestra la siguiente ecuación
+De esta división vemos que el el cerebro de nuestro robot es capaz de obtener de sus sensores (input) señales análogas como digitales. Pero para la salida solo puede generar señales digitales y el denominado **Modulación por ancho de pulso** o **PWM** por sus siglas en ingles.
 
-El periodo se mide en segundos, de este modo la unidad en la cual se mide la frecuencia (hertz) es la inversa a la unidad de tiempo (segundos).
+   * **PWM**
+   es una técnica que logra producir el efecto de una señal analógica sobre una carga, a partir de la variación de la frecuencia y ciclo de trabajo de una señal digital.
 
-Existe otro parámetro asociado o que define a la señal PWM, denominado "Duty cycle", Ciclo de Trabajo, el cual determina el porcentaje de tiempo que el pulso (o voltaje aplicado) está en estado activo (on) durante un ciclo.
+El ciclo de trabajo describe la cantidad de tiempo que la señal está en un estado lógico alto, como un porcentaje del tiempo total que este toma para completar un ciclo completo. La frecuencia determina que tan rápido se completa un ciclo (por ejemplo: 1000 Hz corresponde a 1000 ciclos en un segundo), y por consiguiente que tan rápido se cambia entre los estados lógicos alto y bajo. Al cambiar una señal del estado alto a bajo a una tasa lo suficientemente rápida y con un cierto ciclo de trabajo, la salida parecerá comportarse como una señal analógica constante cuanto esta está siendo aplicada a algún dispositivo.
 
-Por ejemplo, si una señal tiene un periodo de 10 ms y sus pulsos son de ancho (PW) 2ms, dicha señal tiene un ciclo de trabajo (duty cycle) de 20% (20% on y 80% off). El siguiente gráfico muestra tres señales PWM con diferentes "duty cycles".
-
-![duty](/../assets/images/duty-cycle.png)
+![pwm](../assets/images/pwm/PWM1.png)
+![pwm](../assets/images/pwm/PWM2.png)
+![pwm](../assets/images/pwm/PWM3.png)
 
 La señal PWM se utiliza como técnica para controlar circuitos analógicos. El periodo y el ciclo de trabajo (duty cycle) del tren de pulsos puede determinar la tensión entregada a dicho circuito. Si, por ejemplo, tenemos un voltaje de 5v y lo modulamos con un duty cycle del 10%, obtenemos 0.5V de señal analógica de salida.
 
+![duty](../assets/images/duty-cycle.png)
+
 Las señales PWM son comúnmente usadas para el control de velocidad de motores DC (si decrementas el ciclo de trabajo sobre la señal de control del circuito de potencia que actúa sobre el motor el motor se mueve más lentamente), ajustar la intensidad de brillo de un LED, etc.
-
-Otra forma de generar señales PWM es utilizando la capacidad del microprocesador. La señal de salida obtenida de un microprocesador es una señal digital de 0 Voltios (LOW) y de 5 voltios (HIGH).
-
 
 
 ## Micro-controladores
+
+Para tomar decisiones, un robot utiliza una computadora o un microcontrolador. Para aquellos que no están familiarizados, un microcontrolador es un componente electrónico que puede hacer tres cosas.
+  - Puede interpretar entradas del mundo físico,
+  - procesar esta información y
+  - controlar dispositivos de salida en el mundo físico.
+
+Al ser capaz de percibir y responder al mundo, puede crear un bucle de retro-alimentación entre la salida y la entrada. En otras palabras, puede crear robots y dispositivos que sean verdaderamente interactivos. Otra forma de pensar sobre esto es que los robots pueden prestar atención a lo que está sucediendo a su alrededor, tomar decisiones usando el microcontrolador y luego responder de manera significativa.
+
+![micro](../assets/images/micro.png)
+"Diagrama general de partes dentro de un microcontrolador"
+
+
+### El Arduino
+
+El Arduino es un tipo de microcontrolador muy común. Lo que diferencia a Arduino de otros microcontroladores es que es fácil de usar, está bien documentado y tiene una gran comunidad en línea de usuarios. Esto significa que no importa lo que puede salir mal, es probable que pueda encontrar una solución documentada en línea o alguien dispuesto a ayudarle. Esto es extremadamente útil cuando se empieza.
+
+---
+Parte Practica
+ - Carga inicial del codigo
+ - Compilacion y carga del codigo en el micro
+ - Ejemplos a descargar en [repositorio](/../assets/codigos/codigos.zip)
+---
