@@ -41,21 +41,24 @@ description : cronograma del taller 'robótica para principiantes'
 
 # Día 2
 
-## Modulo 4 - Eléctrica
+## Modulo 4 - Electricidad
 
- * Voltaje - Corriente - Resistencia
- * Ley de ohm
- * Tipo Señales ( Análoga / Digital)
- * Señales de entrada y salida (Análoga/Digital & digital/PWM)
- * micro-controladores
- * Instalación IDE
+* Voltaje - Corriente - Resistencia - Potencia - Energía
+* Conexión Serie Paralelo
+* Ley de ohm
+* Tipo Señales (Análoga / Digital)
+* Señales de entrada y salida (Análoga/Digital & digital/PWM)
+* micro-controladores
 
-## Modulo 5 - Eléctrica practico día 2
+## Modulo 5 - Electricidad practico día 2
 
-* Fuente de poder con variación de voltaje / variación de velocidad motor
-* PWM con Motores
-* Armado circuito con botones - baterías - motores
-* Final de Carro
+1)  Medición con Multi-tester
+- Voltaje en la fuente de Voltaje
+- Voltaje en pilas y baterías
+- Medir resistencia de Motores KIT y motores aparte.
+- Medir resistencia de potenciómetro.
+
+2) Calculo de corriente por los motores DC, considerando el set de pilas y baterías.
 
 *Si queda tiempo*
 
