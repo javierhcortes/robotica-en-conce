@@ -150,13 +150,13 @@ De esta división vemos que el el cerebro de nuestro robot es capaz de obtener d
 
 El ciclo de trabajo describe la cantidad de tiempo que la señal está en un estado lógico alto, como un porcentaje del tiempo total que este toma para completar un ciclo completo. La frecuencia determina que tan rápido se completa un ciclo (por ejemplo: 1000 Hz corresponde a 1000 ciclos en un segundo), y por consiguiente que tan rápido se cambia entre los estados lógicos alto y bajo. Al cambiar una señal del estado alto a bajo a una tasa lo suficientemente rápida y con un cierto ciclo de trabajo, la salida parecerá comportarse como una señal analógica constante cuanto esta está siendo aplicada a algún dispositivo.
 
-![pwm](../assets/images/pwm/PWM1.png)
-![pwm](../assets/images/pwm/PWM2.png)
-![pwm](../assets/images/pwm/PWM3.png)
+![pwm](/../assets/images/pwm/PWM1.png)
+![pwm](/../assets/images/pwm/PWM2.png)
+![pwm](/../assets/images/pwm/PWM3.png)
 
 La señal PWM se utiliza como técnica para controlar circuitos analógicos. El periodo y el ciclo de trabajo (duty cycle) del tren de pulsos puede determinar la tensión entregada a dicho circuito. Si, por ejemplo, tenemos un voltaje de 5v y lo modulamos con un duty cycle del 10%, obtenemos 0.5V de señal analógica de salida.
 
-![duty](../assets/images/duty-cycle.png)
+![duty](/../assets/images/duty-cycle.png)
 
 Las señales PWM son comúnmente usadas para el control de velocidad de motores DC (si decrementas el ciclo de trabajo sobre la señal de control del circuito de potencia que actúa sobre el motor el motor se mueve más lentamente), ajustar la intensidad de brillo de un LED, etc.
 
@@ -170,7 +170,7 @@ Para tomar decisiones, un robot utiliza una computadora o un microcontrolador. P
 
 Al ser capaz de percibir y responder al mundo, puede crear un bucle de retro-alimentación entre la salida y la entrada. En otras palabras, puede crear robots y dispositivos que sean verdaderamente interactivos. Otra forma de pensar sobre esto es que los robots pueden prestar atención a lo que está sucediendo a su alrededor, tomar decisiones usando el microcontrolador y luego responder de manera significativa.
 
-![micro](../assets/images/micro.png)
+![micro](/../assets/images/micro.png)
 "Diagrama general de partes dentro de un microcontrolador"
 
 
