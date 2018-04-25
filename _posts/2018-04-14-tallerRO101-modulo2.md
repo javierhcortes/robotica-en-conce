@@ -3,6 +3,9 @@ title: "Introducción a la robótica"
 date: 2018-04-15 13:00:00 -0300
 permalink: /posts/RO101-modulo2/
 description : Se abordan temas generales de la robótica
+header:
+  teaser: "assets/images/front_mini.JPG"
+
 ---
 # __Introducción a la Robótica__
 
