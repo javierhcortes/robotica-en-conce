@@ -13,7 +13,7 @@ header:
 
 # Electricidad y Electrónica
 
-Aquí presentaremos algunos conceptos teoricos que muestran conceptos recurrentes, en electricidad y electrónica necesaria para la robótica práctica. Apenas estaremos arañando la superficie de la ciencia y la tecnología detrás de estos conceptos.
+Aquí presentaremos algunos conceptos teóricos que muestran conceptos recurrentes, en electricidad y electrónica necesaria para la robótica práctica. Apenas estaremos arañando la superficie de la ciencia y la tecnología detrás de estos conceptos.
 
 **Definición de ELECTRICIDAD**
 > La electricidad es el conjunto de fenómenos físicos asociados con la presencia y el movimiento de la carga eléctrica.
@@ -23,16 +23,9 @@ Aquí presentaremos algunos conceptos teoricos que muestran conceptos recurrente
 
 En pocas palabras, son ciencias que estudian y controlar el movimiento de los electrones. La regulación de los electrones ha permitido algunas de las innovaciones más importantes del siglo pasado, como computadoras, televisores.
 
-
 ## Voltaje, Corriente y Potencia
 
 Para poder comunicarnos en el lenguaje técnico, mostraremos algunas de las magnitudes mas utilizadas
-
-|           | Voltaje  | Corriente  | Resistencia | Potencia  |
-|-----------|:--------:|:----------:|:-----------:|:---------:|
-|**Unidad** | Volt     | Ampere     | Ohm         | Watts     |
-|**Símbolo**|  [V]     |    [A]     |  [Ω]        |    [W]    |
-
 
 * **Voltaje:**
 
@@ -52,10 +45,11 @@ Si pensáramos en la electricidad como un río y los voltios representan la altu
 
 Si pensáramos en la electricidad como un río y la altura representa el voltaje y el caudal la corriente; la resistencia serán las piedras del rio que impiden el avance del agua.
 
+
 {:refdef: style="text-align: center;"}
 ![ley de ohm](/../assets/images/vir.jpg){: height="80%"  width="80%"}
 {: refdef}
-
+Símil energía eléctrica y mecánica
 Voltaje => Fuerza. Corriente => Desplazamiento. Resistencia => Roce
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
@@ -69,19 +63,16 @@ Las baterías son contenedores especiales que almacenan energía. Los tipos más
 {: refdef}
 
 Se trata principalmente de pilas AAA, AA, C y D.
-{: style="color:black; font-size: 100%; text-align: center;"}
-
-Lo que cambia entra las baterías son el voltaje que entregan y la energía que pueden almacenar. La manera de comparar baterías, es a través de su _capacidad_ que se miden en Amperios Horas o [Ah]. Esta es básicamente la medida de cuántos amperios se pueden extraer de la batería en una hora. Por ejemplo, una batería de **20[Ah]** le permitirá consumir **4 amperes** durante **5 horas**.
-
-La diferencia entre una batería de **9[V]** y un grupo de baterías de  **1.5 [V]** es que las baterías no ofrecen mucha corriente y se agotan rápidamente al hacer cosas como alimentar motores. Por lo tanto, no son buenos para la robótica. Por esto utilizaremos baterías de **9[V]** esta para alimentar al micro-controlador y las pilas de **1.5[V]** para alimentar a los motores DC.
-
-{:refdef: style="text-align: center;"}
-![baterias](/../assets/images/bat-vs-pila.jpg){:height="70%"
- width="70%"}
-{: refdef}
-
-Imagen del interior de una pila y una batería
 {: style="color:gray; font-size: 80%; text-align: center;"}
+
+Lo que cambia entra las baterías son el voltaje que entregan y la energía que pueden almacenar. La manera de comparar baterías, es a través de su _capacidad_ que se miden en Amperios Horas [Ah]. Esta es básicamente la medida de cuántos amperios se pueden extraer de la batería en una hora. Por ejemplo, una batería de **20[Ah]** le permitirá consumir **4 amperes** durante **5 horas**.
+
+La diferencia entre una batería de **9[V]** y un grupo de baterías de **1.5[V]** es que las baterías no ofrecen mucha corriente y se agotan rápidamente al hacer cosas como alimentar motores. Por lo tanto, no son buenos para algunos aspectos de la robótica. Por esto utilizaremos baterías de **9[V]** esta para alimentar al micro-controlador y las pilas de **1.5[V]** para alimentar a los motores DC.
+
+|           | Voltaje  | Corriente  | Resistencia | Capacidad  |
+|-----------|:--------:|:----------:|:-----------:|:----------:|
+|**Unidad** | Volt     | Ampere     | Ohm         | AmpereHora |
+|**Símbolo**|  [V]     |    [A]     |  [Ω]        |    [Ah]    |
 
 ## Conexiones Serie y Paralelo
 
@@ -93,7 +84,7 @@ Esto significa que los conectamos de frente a atrás en una fila. Por lo tanto, 
 Dos pilas en serie
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
-A continuación, podemos calcular el nuevo voltaje simplemente añadiendo **1.5 [V]** para cada batería de la serie.
+A continuación, podemos calcular el nuevo voltaje simplemente sumando **1.5 [V]** para cada batería de la serie.
 
 Por lo tanto, si usted tiene tres baterías de 1.5V en serie, lo calcularíamos así:
 
@@ -101,12 +92,15 @@ Por lo tanto, si usted tiene tres baterías de 1.5V en serie, lo calcularíamos 
 
 En lugar de colocar baterías en serie, también podemos conectarlas una al lado de la otra. Esto se llama paralelo. Cuando se conectan en paralelo fuentes de alimentación idénticas, la tensión se mantiene igual, pero la cantidad de corriente disponible aumenta. Esto es útil cuando no tiene suficiente corriente para alimentar su circuito.
 
-![baterias](/../assets/images/bateria-paralelo.jpg)
+{:refdef: style="text-align: center;"}
+![baterias](/../assets/images/bateria-paralelo.jpg){:height="70%" width="70%"}
+{: refdef}
+
 Dos pilas en paralelo
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
-Tenga en cuenta que esto sólo funcionará si las baterías tienen exactamente el mismo voltaje y debe evitarse si es posible. **Sin el circuito de protección adecuado**, la fluctuación en el voltaje entre las baterías los forzará a tratar de cargarse unos a otros, disminuyendo su vida útil.
-
+**Atención!** Tenga en cuenta que esto sólo funcionará si las baterías tienen exactamente el mismo voltaje y debe evitarse si es posible. **Sin el circuito de protección adecuado**, la fluctuación en el voltaje entre las baterías los forzará a tratar de cargarse unos a otros, disminuyendo su vida útil.
+{: .notice--warning}
 ---
 ## **Actividad Práctica de medición de componentes.**
 
@@ -115,7 +109,6 @@ Tenga en cuenta que esto sólo funcionará si las baterías tienen exactamente e
 - Medir voltaje en pilas y baterías
 - Medir resistencia de Motores KIT y motores de ensayo
 - Medir resistencia de potenciómetro
-
 ---
 
 ## Ley de ohm
@@ -123,14 +116,14 @@ Tenga en cuenta que esto sólo funcionará si las baterías tienen exactamente e
 Una ley fundamental de la electricidad es la ley de ohm, la que nos dice que la corriente que circula por un conductor es proporcional al voltaje entre los extremos del mismo.
 
 {:refdef: style="text-align: center;"}
-  ![ley de ohm](/../assets/images/ohm.svg)
+  ![ley de ohm](/../assets/images/ohm.png)
 {: refdef}
 
 Sin duda una relación muy importante en robótica, sobretodo al dimensionar nuestros actuadores y la cantidad de corriente que necesitar utilizar.
 
 ## Tipo Señales (Análoga / Digital)
 
-* **La señal analógica** es aquella que presenta una variación continua con el tiempo, es decir, que a una variación suficientemente significativa del tiempo le corresponderá una variación igualmente significativa del valor de la señal (la señal es continua).
+* **La señal analógica** es aquella que presenta una variación continua con el tiempo, es decir, que a una variación del tiempo le corresponderá una variación del valor de la señal (la señal es continua).
 
 ![analoga](/../assets/images/señal-analoga.png)
 
@@ -146,8 +139,7 @@ Las señales analógicas predominan en nuestro entorno (variaciones de temperatu
 "Señal encendido y apagado"
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
-
-Sus parámetros son:
+Los parámetros mas importantes son:
 
   - Altura de pulso (nivel de voltaje)
   - Duración (tiempo que esta encendida/apagada)
@@ -169,7 +161,7 @@ El **ciclo de trabajo** describe la cantidad de tiempo que la señal está en un
 	<img src="/../assets/images/pwm/PWM1.png" >
 	<img src="/../assets/images/pwm/PWM2.png">
 	<img src="/../assets/images/pwm/PWM3.png">
-	<figcaption>señal con distintos ancho de pulso.</figcaption>
+	<figcaption>señal con distintos ancho de pulso.< /figcaption>
 </figure>
 
 La señal PWM se utiliza como técnica para controlar circuitos analógicos. El periodo y el ciclo de trabajo (duty cycle) del tren de pulsos puede determinar la tensión entregada a dicho circuito. Si, por ejemplo, tenemos un voltaje de 5v y lo modulamos con un **ciclo de trabajo** del 10%, obtenemos 0.5V de señal analógica de salida.
@@ -179,7 +171,7 @@ La señal PWM se utiliza como técnica para controlar circuitos analógicos. El 
 {: refdef}
 
 Las señales PWM son comúnmente usadas para el control de velocidad de motores DC o ajustar la intensidad de brillo de un LED, etc.
-
+{: .notice--primary}
 
 ## Micro-controladores
 
@@ -232,10 +224,10 @@ Interrupciones
 
 ### El Arduino
 
-El Arduino es un tipo de microcontrolador muy común. Lo que diferencia a Arduino de otros microcontroladores es que es fácil de usar, está bien documentado y tiene una gran comunidad en línea de usuarios. Esto significa que no importa lo que puede salir mal, es probable que pueda encontrar una solución documentada en línea o alguien dispuesto a ayudarle. Esto es extremadamente útil cuando se empieza.
+El Arduino es un tipo de microcontrolador muy común. Lo que diferencia a Arduino de otros microcontroladores es que es fácil de usar, está bien documentado y tiene una gran comunidad en línea de usuarios. Esto significa que no importa lo que puede salir mal, es probable que pueda encontrar una solución documentada o alguien dispuesto a ayudarle. Esto es extremadamente útil cuando se empieza.
 
 ---
-Parte Practica
+Parte Práctica
  - Carga inicial del código
  - Compilación y "transferencia" del código en el microcontrolador
 
