@@ -231,5 +231,6 @@ Parte Práctica
  - Carga inicial del código
  - Compilación y "transferencia" del código en el microcontrolador
 
-[<i class="fas fa-download"></i> Descargar los codigos y su documentación aqui](/../assets/codigos/codigos.zip){: .btn .btn--success}
+[Modulo Práctico de electronica](/posts/RO101-modulo5/){: .btn .btn--primary}
+
 ---
