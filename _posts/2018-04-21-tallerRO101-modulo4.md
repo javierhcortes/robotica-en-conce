@@ -161,7 +161,7 @@ El **ciclo de trabajo** describe la cantidad de tiempo que la señal está en un
 	<img src="/../assets/images/pwm/PWM1.png" >
 	<img src="/../assets/images/pwm/PWM2.png">
 	<img src="/../assets/images/pwm/PWM3.png">
-	<figcaption>señal con distintos ancho de pulso.< /figcaption>
+	<figcaption> señal con distintos ancho de pulso. </figcaption>
 </figure>
 
 La señal PWM se utiliza como técnica para controlar circuitos analógicos. El periodo y el ciclo de trabajo (duty cycle) del tren de pulsos puede determinar la tensión entregada a dicho circuito. Si, por ejemplo, tenemos un voltaje de 5v y lo modulamos con un **ciclo de trabajo** del 10%, obtenemos 0.5V de señal analógica de salida.
