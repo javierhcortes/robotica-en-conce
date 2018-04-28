@@ -1,29 +1,16 @@
 ---
 title: "Mecánica y motores"
-date: 2018-04-20 13:00:00 -0300
+date: 2018-04-23 13:00:00 -0300
 permalink: /posts/RO101-modulo6/
-description : detalle para instalar drivers en Windows y Mac para el chip CH340C
+description : detalle del modulo mecánica y motores
 header:
   teaser: "assets/images/motors/motores-pre.jpg"
 ---
 
-## Modulo 6 - Mecánica
-  * Sistemas de transmisión de fuerza
-  * Motores DC
-  * Servomotores
-  * Motor Paso a Paso
-  * Punte H
-
-## Modulo 7 - Mecánica practico día 3
-  * puente H con motores, atrás y adelante al presionar botones (cargado en micro-controlador)
-  * servomotor moviendo una base donde estén los sensores
-
-
 # Motores 
+Es importante comenzar a aprender acerca de los distintos tipos de motores si deseamos construir robots. Si empleamos los motores de forma creativa, es posible crear una gran cantidad de sistemas autónomos. 
 
-Empleando los motores de forma creativa, es posible crear una gran cantidad de sistemas autónomos. 
-** conexión
-Es importante comenzar a aprender acerca de los distintos tipos de motores si deseas construir robots. 
+Veamos algunos conceptos para familiarizarnos con los motores
 
 * **Motor Eléctrico**
 > Es una máquina que transforma la energía eléctrica en energía mecánica. Dicho de otra manera, cuando esta máquina funciona con electricidad, se mueve, normalmente rotando.
