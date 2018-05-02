@@ -1,21 +1,21 @@
 ---
 title: "Mecánica y motores"
-date: 2018-04-23 13:00:00 -0300
+date: 2018-04-28 13:00:00 -0300
 permalink: /posts/RO101-modulo6/
 description : detalle del modulo mecánica y motores
 header:
   teaser: "assets/images/motors/motores-pre.jpg"
 ---
 
-# Motores 
-Es importante comenzar a aprender acerca de los distintos tipos de motores si deseamos construir robots. Si empleamos los motores de forma creativa, es posible crear una gran cantidad de sistemas autónomos. 
+# Motores
+Es importante comenzar a aprender acerca de los distintos tipos de motores si deseamos construir robots. Si empleamos los motores de forma creativa, es posible crear una gran cantidad de sistemas autónomos.
 
 Veamos algunos conceptos para familiarizarnos con los motores
 
 * **Motor Eléctrico**
 > Es una máquina que transforma la energía eléctrica en energía mecánica. Dicho de otra manera, cuando esta máquina funciona con electricidad, se mueve, normalmente rotando.
 
-* **Velocidad** 
+* **Velocidad**
 > es la cantidad de distancia que recorre un objeto en una unidad de tiempo
 
 * **Torque**
@@ -25,7 +25,7 @@ Hay tres tipos comunes de motores que usted encontrará típicamente en la robó
 
 ## Motores de corriente continua (CC)
 
-Los motores de CC giran libremente cuando son alimentados por corriente continua y no tienen un posicionamiento preciso. Típicamente se puede identificar un motor de corriente continua porque parece un tubo redondo de metal con un eje en el centro y dos terminales en la parte posterior. 
+Los motores de CC giran libremente cuando son alimentados por corriente continua y no tienen un posicionamiento preciso. Típicamente se puede identificar un motor de corriente continua porque parece un tubo redondo de metal con un eje en el centro y dos terminales en la parte posterior.
 
 {:refdef: style="text-align: center;"}
 ![velocidad](/assets/images/motors/dcmotor.jpg){: height="40%"  width="40%"}
@@ -34,7 +34,7 @@ Los motores de CC giran libremente cuando son alimentados por corriente continua
 Para alimentar un motor de corriente continua, debe conectar un voltaje positivo (dentro de sus valores operacionales) a un terminal en el motor, y conectar a tierra el otro terminal.
 {: .notice}
 
-Si deseas invertir la dirección del motor, solo debes invierta los cables conectados a cada terminal. 
+Si deseas invertir la dirección del motor, solo debes invierta los cables conectados a cada terminal.
 
 ## Motores de paso a a paso
 
@@ -54,7 +54,7 @@ Un servomotor es básicamente un tipo especial de motorreductor, tiene una placa
 ![velocidad](/assets/images/motors/servomotor.jpg){: height="60%"  width="60%"}
 {: refdef}
 
-Dado que un potenciómetro sólo se puede girar hasta cierto angulo, estos motores no pueden girar más allá de su ángulo máximo. También poseen topes físicos en sus engranes para evitar que el servo se extienda más allá de su ángulo de rotación máximo. 
+Dado que un potenciómetro sólo se puede girar hasta cierto angulo, estos motores no pueden girar más allá de su ángulo máximo. También poseen topes físicos en sus engranes para evitar que el servo se extienda más allá de su ángulo de rotación máximo.
 
 Si estas diseñando un brazo robot, puedes utilizar un servo para controlar cada articulación. De este modo, cada articulación se moverá a una posición muy precisa lo que permite realizar tareas muy complejas.
 {: .notice}
@@ -77,7 +77,7 @@ Por regla general, cuanto más rápido gira el motor, menos torque proporciona. 
 
 # Mecánica
 
-Al acoplar el eje del motor a diferentes sistemas mecánicos, se pueden lograr diferentes tipos de movimiento. Estos conjuntos pueden combinarse en última instancia para crear conjuntos electromecánicos avanzados que resuelven diferentes tareas. 
+Al acoplar el eje del motor a diferentes sistemas mecánicos, se pueden lograr diferentes tipos de movimiento. Estos conjuntos pueden combinarse en última instancia para crear conjuntos electromecánicos avanzados que resuelven diferentes tareas.
 
 Los siguientes son las principales formas de movimiento encontradas en robótica
 
@@ -86,8 +86,8 @@ Los siguientes son las principales formas de movimiento encontradas en robótica
 {:refdef: style="text-align: center;"}
 ![mov](/assets/images/motors/rotatorio.gif){: height="80%"  width="80%"}
 {: refdef}
- 
-Es el más fácil de lograr porque el eje del motor ya está girando. Típicamente, los sistemas rotatorios implican el aumento o la disminución de la velocidad de rotación del motor. Como ya se ha mencionado, esto también cambia el torque del sistema en relación. 
+
+Es el más fácil de lograr porque el eje del motor ya está girando. Típicamente, los sistemas rotatorios implican el aumento o la disminución de la velocidad de rotación del motor. Como ya se ha mencionado, esto también cambia el torque del sistema en relación.
 
 * **El movimiento lineal :**
 
@@ -113,4 +113,3 @@ Es un movimiento que se mueve hacia adelante y hacia atrás de manera lineal. Es
 {: refdef}
 
 Es un movimiento que involucra cualquier parte que se mueve hacia adelante y hacia atrás a lo largo de un arco. El ejemplo más clásico es un metrónomo. El mecanismo más típico es que sólo requiere una parte fija y un pivote empujado hacia adelante y hacia atrás por alguna otra parte.
-
