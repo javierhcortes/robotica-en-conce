@@ -23,7 +23,9 @@ header:
   * Armado de chasis con ruedas y Sensores
   * Cargado de varios programas de control ( evasor de obstáculos - Giro constante)
 
+https://www.arduino.cc/reference/en/  
 
+https://playground.arduino.cc/Main/InterfacingWithHardware#microBox
 
   Sintaxis
 
@@ -219,3 +221,122 @@ header:
   La construcción de un puente en H muy confiable es una forma de arte para sí misma y fuera del alcance de esta clase. En su lugar, utilizaremos la pantalla del controlador del motor y los módulos. Básicamente son placas de circuito impreso con puentes H prefabricados para el control de motores.
 
   Algunos motores incluso tienen su propio H-bridge ya incorporado, como aprenderá a continuación en la lección servo.
+
+
+
+
+---
+
+
+Ahora vamos a ir viendo las particularidades más importantes dentro de la sintaxis de la programación con Arduino.
+Comentarios en un programa de Arduino
+
+Los comentarios no son más que notas que el programador va dejando dentro del código. Te ayuda a comprender parte de ese código.
+
+Un aviso importante. No se trata de hacer un informe completo sobre lo que hace algo del código, se trata de poner algo descriptivo para ayudar a entenderlo.
+
+Es una parte fundamental cuando estamos escribiendo un programa para Arduino. Sin embargo, no se compila es decir, no se traduce al código máquina. Cada vez que el compilador encuentra un comentario, se salta esa línea.
+
+Hay dos formas de escribir un comentario.
+// Esto es un comentario
+int miVariable = 0;
+1
+2
+
+// Esto es un comentario
+int miVariable = 0;
+
+Todo lo que hay a la derecha de la doble barra (//) se considera un comentario y se pone en color gris. El IDE de Arduino lo cambia de color para indicarnos que se trata de un comentario.
+
+  Esto es un comentario
+
+
+int miVariable = 0;
+1
+2
+3
+4
+
+
+  Esto es un comentario
+
+int miVariable = 0;
+
+La otra forma de poner un comentario es poniendo /* para abrir y * / para cerrar. Todo lo que haya entre estas dos marcas de apertura y cierre se considera comentario. Como tal, su color cambia a gris.
+Punto y coma
+
+En el lenguaje de programación C++, el punto y coma (;) es como un punto y aparte. Básicamente lo que está diciendo es que hemos terminado una sentencia y a partir de ese momento, empezamos algo nuevo sin relación a lo anterior a nivel de sintaxis.
+// Esto es un comentario
+int variable = 0;
+1
+2
+
+// Esto es un comentario
+int variable = 0;
+
+Seguramente el código anterior no significa nada para ti si no has programado nunca antes. Sin embargo, quiero que te fijes en el punto y coma final. El compilador interpreta que a partir de ese punto y coma todo lo que escriba será una sentencia nueva, sin nada que ver con la anterior.
+
+En este punto ya podemos hacer una prueba para ver como actúa el compilador. Abre un nuevo programa en el IDE de Arduino y copia el siguiente código. No hace falta ni que conectes la placa a tu ordenador.
+//Sin punto y coma
+int variable1 = 0
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+
+//Sin punto y coma
+int variable1 = 0
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+
+Ahora da al botón verificar, es el primer acceso directo en el editor. ¿Qué ha sucedido?
+
+Error punto coma IDE Arduino
+
+Que nos enfrentamos al primer error :). Vamos a analizarlo para ver como resolverlo.
+
+Si te fijas en el área de mensajes, el error está en inglés pero es muy descriptivo, “expected ‘,’ or ‘;’ before void” (en español “espera ‘,’ o ‘;’ antes de void“) es decir, que nos falta poner una coma o un punto y coma antes de la palabra void.
+
+En la consola nos da todavía más información. Nos indica el archivo donde se ha producido el error (sketch_may29a puede que tu tengas otro nombre) y la línea donde se ha producido 4.
+
+
+
+
+Por último en el editor nos sale una franja roja indicando la línea donde está el error y donde se hace referencia en la consola. Ahora cambia el código y pon el punto y coma al final de la línea 2 y verás como compila.
+
+Como ves no estás sólo. El compilador es muy exigente pero también nos ayuda a corregir los errores.
+Palabras reservadas
+
+Seguramente ya hayas copiado y pegado algún código de Arduino de esos que encuentras por Internet. Al hacerlo, te habrás dado cuenta algunas palabras cambian el color de texto dentro del IDE de Arduino.
+
+Son palabras reservadas por el lenguaje C++. Cada una de ellas tiene una función específica y están reservadas por el lenguaje de programación.
+
+Esto quiere decir que no podemos utilizar esos nombres para nombrar una variable por ejemplo.
+
+Hay más palabras clave que las que hemos visto. Poco a poco te irás familiarizando con ellas según las vayas necesitando. Lo importante es que si cambia de color en el IDE de desarrollo, es que es una palabra reservada.
