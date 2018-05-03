@@ -3,11 +3,10 @@ title: "Programación"
 date: 2018-05-05 13:00:00 -0300
 permalink: /posts/RO101-modulo8/
 description : detalle del modulo de programación
-draft: true
+future: true
 header:
   teaser: "assets/images/progamando.JPG"
 ---
-
 ## Modulo 7 - Mecánica practico día 3
   * puente H con motores, atrás y adelante al presionar botones (cargado en micro-controlador)
   * servomotor moviendo una base donde estén los sensores
