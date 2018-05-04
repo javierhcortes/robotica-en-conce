@@ -21,136 +21,102 @@ header:
 ## Modulo 9 - Practica de Software día 4
   * Armado de chasis con ruedas y Sensores
   * Cargado de varios programas de control ( evasor de obstáculos - Giro constante)
-
 https://www.arduino.cc/reference/en/  
 
 https://playground.arduino.cc/Main/InterfacingWithHardware#microBox
 
-  Sintaxis
+https://github.com/microcodesv/Acordeon-arduino/blob/master/Acordeon%20Arduino.pdf
 
-  Cada lenguaje de programación tiene una sintaxis para la forma en que el código necesita ser formateado. Eso es básicamente el equivalente de conocer la gramática apropiada. Por ejemplo, la mayoría de las expresiones en programación terminan con un punto y coma - así; Esto es un poco como escribir un punto al final de la oración. Si escribes un ensayo sin periodos confundirás al lector. Del mismo modo, si escribes un programa Arduino sin sintaxis, confundirás el compilador. El compilador interpreta el código y es un poco como el lector de un ensayo en nuestra analogía.
+# Programación
 
-  Si alguna vez estás recibiendo errores extraños y no puedes decir por qué, es probable que hayas roto una de las reglas de la sintaxis (es decir, el formato).
+Programar es un arte.
 
-  Expresiones de código
+A diferencia de los demás temas, la programación es mas arte que ciencia. Esto es porque para ser habil en programacion, se necesita practicar mucho y se practica utilizando codigo en el que no conocemos nada, vamos aprendiendo de a poco cada una de sus sentencias y finalmente entendemos todos sus componentes.
 
-  Al leer y escribir código encontrarás algunos bloques básicos de construcción como lo harías en cualquier otro idioma. Por ejemplo, el inglés tiene sustantivos, adjetivos y verbos. Estos componentes se estructuran en oraciones. La programación a su vez tiene constantes, variables y operadores. Éstos se estructuran en funciones.
-
-  Aquí están algunas definiciones básicas de los componentes comunes de programación:
-
-  Las constantes son términos que se definen una vez y no cambian.
-
-  Las variables son términos que son marcadores de posición para otros valores y pueden cambiar.
-
-  Los operadores son términos que ejecutan una acción, que es típicamente alguna forma de comparación matemática o lógica entre valores.
-
-  Las funciones son un conjunto estructurado de constantes, operadores y variables. Cada vez que se llama una función, ésta lee y ejecuta la misma rutina de acción específica.
-
-  Estructura del programa
-
-  Una vez que haya dominado los componentes de la gramática inglesa y haya comenzado a escribir oraciones, el siguiente paso lógico es escribir una composición como un ensayo. Así como un ensayo tiene una estructura con un párrafo de apertura, un cuerpo de texto y un párrafo de cierre, así también lo tiene un programa Arduino. Sin embargo, la estructura de un programa Arduino es un poco diferente.
-
-  A continuación se presenta un programa típico:
+Es por esta misma razon que usted no deberia preocuparse al comenzar a programar. siempre se desconocen las formas y maneras de trabajar. pero de a poco iremos agregando conceptos.
 
 
-  //####################
-  EL ENCABEZADO #### ###
-  //####################
+## **Seteando las herramientas**
 
-  El encabezado le explica a usted como ser humano lo que el programa está haciendo
-  No es procesado por el compilador
-  También nota que cualquier cosa precedida por dos barras como ésa' //' /
-  Se considera un comentario y no procesado por el compilador.
-  Los comentarios le explican lo que está sucediendo en el código.
+Para programar se necesita paciencia y buenas herramientas. veremos ahora las herramientas que ncestia para programar su arduino de una manera practica y comoda
 
+1) Integrated Development Enviroment (IDE)
+  El IDE es el conjunto de herramientas que permiten escribir codigo (como en un documento de texto), comprobarlo, cargarlo en la placa y revisarlo. Hasta ahora hemos estado usando "ARDUINO IDE" pero hay muchos otros que usted puede elegir. Sin embargo considere que cualquier otro entorno devera configurarlo y testearlo antes de cambiar completamente su flujo de trabajo.
 
-  //#####################
-  DEFINICION ####
-  //#####################
+  Algunos IDE's populares para el trabajo en arduino son : 
+   - PlatformIO IDE
+   - Notepad++ con plugin para arduino
+   - Stino plugin para sublimeText
+   - Atmel Studio
+   - gedit
 
-  Las definiciones son cosas que queremos establecer globalmente en todo el código.
-  Hacemos esto antes de que empiece el código.
-  Sólo ocurre una vez cuando el código se ejecuta.
+2) Color y letra de su editor
+  Aunque los IDE's tienen la capacidad de cambiar esta configuración, *no la tome a la ligera!!*.
+  En general utilice colores oscuros y letras legibles. Esto reducira el cansancio de estar leyendo su codigo por varios minutos
 
-  Las librerías a menudo se requieren para añadir funcionalidad adicional al software Arduino.
-  Un ejemplo que usaremos mucho es la biblioteca de servos.
-  Al añadir la biblioteca de servos obtenemos comandos servo-específicos que facilitan la vida.
-  #Incluye <bibliotecas. h>
+3) Documentacion
+  Se acostumbra a decir que sin documentacion los proyectos no funcionan. PAra programar, tambien se utiliza documentación, en general guias de apoyo como esta.
+-- descargue aqui una guia de apoyo de doc --
+  
+  **siempre** tenga a mano la documentacion de sus dispositivos, tanto el hardware como el software.
 
-
-  También podemos definir variables y constantes
-  que queremos establecer globalmente en todo el código.
-  Hay diferentes tipos de variables y constantes
-  Aprenda más aquí bajo' constante' y' tipos de datos':
-  // http://www.arduino.cc/en/Reference/HomePage
-
-  Por ejemplo, podemos establecer una variable intenger
-  int definición1;
-
-  También podemos establecer una variable larga y darle un valor inicial.
-  definición larga2 = 3000;
-
-  También podemos nombrar algo constante, y darle un valor que no cambiará
-  const esteIsaconstante = 2;
+4) Teclado y mouse
+  Aunque es una caracteristica menor, siempre es conveniente tener un teclado numerico separado y un mouse en vez de touchpad. todo esto con el fin de comprobar su codigo con mayor velocidad.
 
 
-  //################
-  /#### SETUP ###
-  //################
+## **Conceptos de la programacion** 
 
-  nulo setup () {
+1) Sintaxis
 
-    El código de configuración va aquí.
-    Como las definiciones sólo se ejecuta una vez.
-    La diferencia es que en la configuración se incluyen las cosas que se quieren hacer,
-    no cosas que quieras definir.
+Cada lenguaje de programación tiene una sintaxis para la forma en que el código necesita ser formateado. Eso es básicamente el equivalente de conocer la gramática apropiada. Por ejemplo, la mayoría de las expresiones en programación terminan con un punto y coma - así; Esto es un poco como escribir un punto al final de la oración. Si escribes un ensayo sin periodos confundirás al lector. Del mismo modo, si escribes un programa Arduino sin sintaxis, confundirás el compilador. El compilador interpreta el código y es un poco como el lector de un ensayo en nuestra analogía.  Si alguna vez estás recibiendo errores extraños y no puedes decir por qué, es probable que hayas roto una de las reglas de la sintaxis (es decir, el formato).
+En el lenguaje de programación C++, el punto y coma (;) es como un punto y aparte. Básicamente lo que está diciendo es que hemos terminado una sentencia y a partir de ese momento, empezamos algo nuevo sin relación a lo anterior a nivel de sintaxis.
 
-    Por ejemplo, puede que desee mover un servomotor a su posición por defecto
+Expresiones de código
 
-    O bien, active el Serial Monitor para depurar su código
+Al leer y escribir código encontrarás algunos bloques básicos de construcción como lo harías en cualquier otro idioma. Por ejemplo, el español tiene sustantivos, adjetivos y verbos. Estos componentes se estructuran en oraciones. La programación a su vez tiene constantes, variables y operadores. Éstos se estructuran en funciones. Veremos cada uno de estos en detalle.
 
-    O parpadear un patrón de prueba de LED para hacerle saber que la aplicación ha comenzado
+- Constantes:
+    Las constantes son términos que se definen una vez y no cambian.
 
-  }
+- Variables:
+    Elementos que almacenan un valor y pueden modificarse en el tiempo
+
+- Operadores:
+    son elementos que ejecutan acciones, generalmente alguna forma de comparación matemática o lógica entre valores.
+
+- Funciones :
+     Las funciones son un conjunto estructurado de constantes, operadores y variables.
+
+- Estructuras basicas y de control: 
+    son conjunto de palabras que general un control del flujo de funciones
+
+- Bibliotecas(libraries):
+    Son un conjunto de fuciones y estructuras que se utilizan para añadir funcionalidad extra a nuestro codigo. se utiliza cuando la tarea a programar es utilziada frecuentemente.
 
 
-  //###################
-  ##### BUCLE PRINCIPAL ###
-  //###################
+## Programando el Arduino
 
-  bucle vacío () {
+Un programa de Arduino se denomina sketch o proyecto y tiene la extensión .ino
 
-    Cualquier cosa que ponga aquí se va a atropellar una y otra vez.
-    Aquí es donde debería vivir la mayor parte de su código.
-    El Arduino pasará por lo que haya aquí indefinidamente hasta que se quede sin energía.
+Importante: para que funcione el sketch, el nombre del fichero debe estar en un directorio con el mismo nombre que el sketch.
+{: .notice}
 
-  }
+ - Setup:
+  El código de configuración va en esta seccion.  Por ejemplo, puede que desee mover un servomotor a su posición por defecto o bien, active el Serial Monitor para depurar su código o parpadear un patrón de prueba de LED para hacerle saber que la aplicación ha comenzado.
+
+- Loop:
+Cualquier cosa que ponga aquí se va a ejecutar una y otra vez.
+Aquí es donde debería vivir la mayor parte de su código.  El Arduino pasará por lo que haya aquí indefinidamente hasta que se quede sin energía.
 
 
   ----------------
 
-  03. Analógico --> Fading
-
-  Una vez hecho esto, cambie el cable conectado del pin digital 7 al pin digital 9, y suba el código a su Arduino.
-
-  El LED debería ahora desaparecer y apagarse.
-
 
   Una vez que domine los LEDs parpadeantes y fundidos, puede transferir este conocimiento al control de un motor. Sin embargo, no se puede conectar un motor directamente al pin Arduino por dos razones. Primero, el pin Arduino sólo es capaz de proporcionar un poquito de corriente, y un motor es un cerrojo de corriente (especialmente cuando arranca y se detiene). Además, cuando un motor se detiene, produce una corriente de polaridad opuesta a la que está funcionando. Se sabe que esta corriente daña los pines de Arduino y evita que funcionen. Por lo tanto, construir un circuito de amortiguación es útil.
 
-  Todo lo que necesita para controlar un motor usando un Arduino es una resistencia de 2K, un transistor NPN (TIP120 en este caso), y un diodo 1N4001. La resistencia 2K trabaja para proteger el perno Arduino, el transistor sirve como una válvula que permite que más o menos corriente fluya a través del motor. Esto es lo que enciende y apaga el motor y controla su velocidad.
+ Para hacer girar el motor hacia atrás, necesitará un puente en H.
 
-  El diodo se utiliza como amortiguador. Cuando la electricidad fluye a través del motor, el diodo no hace nada. Sin embargo, cuando el motor se detiene, la corriente inversa fluye a través del diodo, y de regreso a través del motor. Esto protege el circuito de picos de tensión repentinos.
-
-  Si todo esto suena confuso, usted puede aprender más sobre estos componentes básicos en mi Clase de Electrónica.
-
-  Si desea encender y apagar el motor usando el circuito ilustrado, necesita hacer dos conexiones más. Primero, conecte la toma de tierra del paquete de baterías externas a la clavija de tierra del Arduino. Esto se llama "compartir la tierra" y es necesario para que el circuito funcione. A continuación, conecte el pin 13 del Arduino a la resistencia 2K conectada a la base de transistores. Una vez hecho esto, carga el ejemplo de Blink y súbelo al Arduino. En lugar de parpadear un LED, encenderá y apagará el motor.
-
-  Si desea controlar la velocidad del motor, cambie el cableado al pin 13 y cargue el ejemplo de desvanecimiento para aumentar y disminuir la velocidad del motor.
-
-  Puede que ahora te haya dado la espalda, ninguna de estas dos soluciones revertirán el motor. Para hacer girar el motor hacia atrás, necesitará un puente en H.
-
-  Un H-bridge es un circuito que permite invertir la dirección del motor. Puentes H más avanzados - como los que se encuentran dentro de los servomotores - también le permiten controlar la velocidad del motor.
+  Un H-bridge es un circuito que permite invertir la dirección del motor. 
 
   Esencialmente, un H-bridge consta de cuatro interruptores o transistores. En el ejemplo anterior, hay un interruptor entre cada polo del motor y la tierra. También hay otro juego de interruptores entre cada polo del motor y la potencia.
 
@@ -164,27 +130,17 @@ https://playground.arduino.cc/Main/InterfacingWithHardware#microBox
 
   Además, si mezcla y combina los interruptores como el cierre A1 y B2, también creará un cortocircuito. Es importante que los interruptores "A" se cierren o los interruptores "B". Nunca ambas cosas o alguna combinación de ellas.
 
-  Si quieres controlar la velocidad, usarías cuatro transistores en vez de interruptores y controlarías la base de cada transistor usando tu Arduino.
-
-  Arriba hay un ejemplo crudo de un puente H DIY usando dos transistores PNP (2N3906) y dos NPN (2N3904). Antes de que usted salga y construya este circuito y lo ponga en su proyecto, es importante tener en cuenta que estos transistores no pueden manejar mucha corriente en absoluto. Este ejemplo sólo debe ser probado con motores relativamente' muy pequeños' (no más grandes que el de la foto), y no es necesario construir. Es principalmente para explicar el concepto. A medida que continuamos con el curso utilizaremos placas de controladores de motor con puentes H prefabricados.
-
-  Ahora que eso está fuera del camino, vamos a discutir brevemente acerca de lo que está sucediendo. Cada lado de la "H" consta de un transistor PNP en la "parte superior" y un transistor NPN en la "parte inferior". La base de cada uno de estos transistores está conectada a un riel común a través de una resistencia de 1K (para proteger el Arduino), y este riel se conecta a un pin Arduino. El emisor del transistor PNP está conectado a la alimentación y el emisor del transistor NPN está conectado a tierra. A cada lado de la' H', ambos colectores se conectan entre sí para unir un solo perno del motor. También se incluyen en el circuito cuatro diodos de protección de silicio 1N4001 que están polarizados inverso entre cada clavija del motor y la alimentación de voltaje positivo y tierra.
-
-  Usando una combinación de transistores PNP y NPN - en contraposición a cuatro transistores NPN - se logran dos cosas. Primero, crea un arreglo donde un transistor en cada lado está siempre desenganchado, previniendo cortocircuitos. En segundo lugar, permite el control del H-bridge con sólo dos pines digitales desde el Arduino.
-
-  Por ejemplo, si tienes un pin Arduino enviando una señal alta a un lado de la' H', y el otro pin Arduino enviando una señal baja al otro lado, la electricidad fluirá desde el PNP de un lado al NPN del otro. Si usted invierte los pines Arduino, la electricidad fluirá a través del par de transistores opuestos, invirtiendo la dirección del motor.
-
-  La velocidad del motor también se puede controlar usando un puente H como éste, mediante PWM, accionando el perno Arduino positivo en lugar de colocarlo en HIGH.
 
   Si usted se ha adelantado y ha construido este circuito, puede usar el siguiente código para verlo en acción:
 
-  nulo setup () {
+´´´c++
+  void setup () {
     Ajustar los pines digitales como salidas
     pinMode (5, OUTPUT);
     pinMode (6, OUTPUT);  
   }
 
-  bucle vacío () {
+  void loop () {
     Girar en el sentido de las agujas del reloj
     digitalWrite (5, LOW);   
     digitalWrite (6, HIGH);
@@ -195,83 +151,31 @@ https://playground.arduino.cc/Main/InterfacingWithHardware#microBox
     digitalWrite (6, LOW);
     retraso (2000);              
   }
-
+´´´
 
   Si desea probar el control de la velocidad en ambas direcciones, pruebe con este código PWM-ing the base pins of the transistor:
 
-  nulo setup () {
+´´´c++
+  void setup () {
     Ajustar los pines digitales como salidas
     pinMode (5, OUTPUT);
     pinMode (6, OUTPUT);  
   }
 
-  bucle vacío () {
+  void loop () {
     Girar lentamente en el sentido de las agujas del reloj
     digitalWrite (5, LOW);   
     analogWrite (6,80);
-    retraso (2000);
+    delay (2000);
 
     Gira más rápido en sentido contrario a las agujas del reloj
     analogWrite (5,180);    
     digitalWrite (6, LOW);
-    retraso (2000);              
+    delay (2000);
   }
-
-  La construcción de un puente en H muy confiable es una forma de arte para sí misma y fuera del alcance de esta clase. En su lugar, utilizaremos la pantalla del controlador del motor y los módulos. Básicamente son placas de circuito impreso con puentes H prefabricados para el control de motores.
-
-  Algunos motores incluso tienen su propio H-bridge ya incorporado, como aprenderá a continuación en la lección servo.
-
-
-
-
+´´´
 ---
 
-
-Ahora vamos a ir viendo las particularidades más importantes dentro de la sintaxis de la programación con Arduino.
-Comentarios en un programa de Arduino
-
-Los comentarios no son más que notas que el programador va dejando dentro del código. Te ayuda a comprender parte de ese código.
-
-Un aviso importante. No se trata de hacer un informe completo sobre lo que hace algo del código, se trata de poner algo descriptivo para ayudar a entenderlo.
-
-Es una parte fundamental cuando estamos escribiendo un programa para Arduino. Sin embargo, no se compila es decir, no se traduce al código máquina. Cada vez que el compilador encuentra un comentario, se salta esa línea.
-
-Hay dos formas de escribir un comentario.
-// Esto es un comentario
-int miVariable = 0;
-1
-2
-
-// Esto es un comentario
-int miVariable = 0;
-
-Todo lo que hay a la derecha de la doble barra (//) se considera un comentario y se pone en color gris. El IDE de Arduino lo cambia de color para indicarnos que se trata de un comentario.
-
-  Esto es un comentario
-
-
-int miVariable = 0;
-1
-2
-3
-4
-
-
-  Esto es un comentario
-
-int miVariable = 0;
-
-La otra forma de poner un comentario es poniendo /* para abrir y * / para cerrar. Todo lo que haya entre estas dos marcas de apertura y cierre se considera comentario. Como tal, su color cambia a gris.
-Punto y coma
-
-En el lenguaje de programación C++, el punto y coma (;) es como un punto y aparte. Básicamente lo que está diciendo es que hemos terminado una sentencia y a partir de ese momento, empezamos algo nuevo sin relación a lo anterior a nivel de sintaxis.
-// Esto es un comentario
-int variable = 0;
-1
-2
-
-// Esto es un comentario
-int variable = 0;
 
 Seguramente el código anterior no significa nada para ti si no has programado nunca antes. Sin embargo, quiero que te fijes en el punto y coma final. El compilador interpreta que a partir de ese punto y coma todo lo que escriba será una sentencia nueva, sin nada que ver con la anterior.
 
@@ -288,54 +192,7 @@ void loop() {
   // put your main code here, to run repeatedly:
 
 }
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-
-//Sin punto y coma
-int variable1 = 0
-
-void setup() {
-  // put your setup code here, to run once:
-
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
-}
-
-Ahora da al botón verificar, es el primer acceso directo en el editor. ¿Qué ha sucedido?
-
-Error punto coma IDE Arduino
-
-Que nos enfrentamos al primer error :). Vamos a analizarlo para ver como resolverlo.
-
-Si te fijas en el área de mensajes, el error está en inglés pero es muy descriptivo, “expected ‘,’ or ‘;’ before void” (en español “espera ‘,’ o ‘;’ antes de void“) es decir, que nos falta poner una coma o un punto y coma antes de la palabra void.
-
-En la consola nos da todavía más información. Nos indica el archivo donde se ha producido el error (sketch_may29a puede que tu tengas otro nombre) y la línea donde se ha producido 4.
-
-
-
 
 Por último en el editor nos sale una franja roja indicando la línea donde está el error y donde se hace referencia en la consola. Ahora cambia el código y pon el punto y coma al final de la línea 2 y verás como compila.
 
 Como ves no estás sólo. El compilador es muy exigente pero también nos ayuda a corregir los errores.
-Palabras reservadas
-
-Seguramente ya hayas copiado y pegado algún código de Arduino de esos que encuentras por Internet. Al hacerlo, te habrás dado cuenta algunas palabras cambian el color de texto dentro del IDE de Arduino.
-
-Son palabras reservadas por el lenguaje C++. Cada una de ellas tiene una función específica y están reservadas por el lenguaje de programación.
-
-Esto quiere decir que no podemos utilizar esos nombres para nombrar una variable por ejemplo.
-
-Hay más palabras clave que las que hemos visto. Poco a poco te irás familiarizando con ellas según las vayas necesitando. Lo importante es que si cambia de color en el IDE de desarrollo, es que es una palabra reservada.
