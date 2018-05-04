@@ -191,7 +191,6 @@ Make any link standout more when applying the `.btn` class.
 {: .notice--success}
 
 **Watch out!** This paragraph of text has been [emphasized](#) with the `{: .notice--danger}` class.
-{: .notice--danger}
 
 ## HTML Tags
 
@@ -265,3 +264,116 @@ Getting our science styling on with H<sub>2</sub>O, which should push the "2" do
 Still sticking with science and Albert Einstein's E = MC<sup>2</sup>, which should lift the 2 up.
 
 ### Variable Tag
+
+
+----
+
+
+  ----------------
+
+
+  Una vez que domine los LEDs parpadeantes y fundidos, puede transferir este conocimiento al control de un motor. Sin embargo, no se puede conectar un motor directamente al pin Arduino por dos razones. Primero, el pin Arduino sólo es capaz de proporcionar un poquito de corriente, y un motor es un cerrojo de corriente (especialmente cuando arranca y se detiene). Además, cuando un motor se detiene, produce una corriente de polaridad opuesta a la que está funcionando. Se sabe que esta corriente daña los pines de Arduino y evita que funcionen. Por lo tanto, construir un circuito de amortiguación es útil.
+
+ Para hacer girar el motor hacia atrás, necesitará un puente en H.
+
+  Un H-bridge es un circuito que permite invertir la dirección del motor.
+
+  Esencialmente, un H-bridge consta de cuatro interruptores o transistores. En el ejemplo anterior, hay un interruptor entre cada polo del motor y la tierra. También hay otro juego de interruptores entre cada polo del motor y la potencia.
+
+  Cuando estos interruptores se dibujan en un diagrama, parecen una especie de "H". Así es como el circuito obtiene el nombre de H-bridge.
+
+  Cuando el conjunto de interruptores etiquetados con "A" está cerrado, la potencia fluye a través del motor de tal manera que gira en sentido horario.
+
+  Cuando el otro ajuste "B" está cerrado, la potencia fluye en sentido contrario y el motor gira en sentido contrario a las agujas del reloj.
+
+  Lo importante que hay que tener en cuenta cuando se trata de puentes H es que ambos conjuntos no se pueden cerrar al mismo tiempo, o la alimentación y la tierra se conectarán directamente, y usted tendrá un cortocircuito.
+
+  Además, si mezcla y combina los interruptores como el cierre A1 y B2, también creará un cortocircuito. Es importante que los interruptores "A" se cierren o los interruptores "B". Nunca ambas cosas o alguna combinación de ellas.
+
+
+  Si usted se ha adelantado y ha construido este circuito, puede usar el siguiente código para verlo en acción:
+
+´´´c++
+  void setup () {
+    Ajustar los pines digitales como salidas
+    pinMode (5, OUTPUT);
+    pinMode (6, OUTPUT);  
+  }
+
+  void loop () {
+    Girar en el sentido de las agujas del reloj
+    digitalWrite (5, LOW);   
+    digitalWrite (6, HIGH);
+    retraso (2000);
+
+    Giro en sentido antihorario
+    digitalWrite (5, HIGH);    
+    digitalWrite (6, LOW);
+    retraso (2000);              
+  }
+´´´
+
+  Si desea probar el control de la velocidad en ambas direcciones, pruebe con este código PWM-ing the base pins of the transistor:
+
+´´´c++
+  void setup () {
+    Ajustar los pines digitales como salidas
+    pinMode (5, OUTPUT);
+    pinMode (6, OUTPUT);  
+  }
+
+  void loop () {
+    Girar lentamente en el sentido de las agujas del reloj
+    digitalWrite (5, LOW);   
+    analogWrite (6,80);
+    delay (2000);
+
+    Gira más rápido en sentido contrario a las agujas del reloj
+    analogWrite (5,180);    
+    digitalWrite (6, LOW);
+    delay (2000);
+  }
+´´´
+---
+
+
+Seguramente el código anterior no significa nada para ti si no has programado nunca antes. Sin embargo, quiero que te fijes en el punto y coma final. El compilador interpreta que a partir de ese punto y coma todo lo que escriba será una sentencia nueva, sin nada que ver con la anterior.
+
+En este punto ya podemos hacer una prueba para ver como actúa el compilador. Abre un nuevo programa en el IDE de Arduino y copia el siguiente código. No hace falta ni que conectes la placa a tu ordenador.
+//Sin punto y coma
+int variable1 = 0
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+}
+
+Por último en el editor nos sale una franja roja indicando la línea donde está el error y donde se hace referencia en la consola. Ahora cambia el código y pon el punto y coma al final de la línea 2 y verás como compila.
+
+Como ves no estás sólo. El compilador es muy exigente pero también nos ayuda a corregir los errores.
+
+
+## Modulo 7 - Mecánica practico día 3
+  * puente H con motores, atrás y adelante al presionar botones (cargado en micro-controlador)
+  * servomotor moviendo una base donde estén los sensores
+
+# Día 4
+
+## Modulo 8 - Software
+ * Lógica de programación
+    * variables, operadores, iteración
+ * Algoritmos, diagrama de bloque
+
+## Modulo 9 - Practica de Software día 4
+  * Armado de chasis con ruedas y Sensores
+  * Cargado de varios programas de control ( evasor de obstáculos - Giro constante)
+https://www.arduino.cc/reference/en/  
+
+https://playground.arduino.cc/Main/InterfacingWithHardware#microBox
+
+https://github.com/microcodesv/Acordeon-arduino/blob/master/Acordeon%20Arduino.pdf
