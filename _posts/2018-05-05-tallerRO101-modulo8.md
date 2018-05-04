@@ -101,17 +101,17 @@ int, bool, char, float, double
 :     Las funciones son un conjunto estructurado de constantes, operadores y variables.
 
 ``` c++
-pinMode(pin,[INPUT, OUTPUT])
-digitalWrite(pin, valor)
-int digitalreal(pin)
+pinMode(pin,[INPUT, OUTPUT]);
+digitalWrite(pin, valor);
+int digitalreal(pin);
+void setup(){}
+void loop(){}
 ```
 
 - Estructuras basicas y de control
 :    son conjunto de palabras que general un control del flujo de funciones
 
 ``` c++
-void setup(){}
-void loop(){}
 if () {...} else{...}
 while(){...}
 for(int i= 0; i<10; i++)
@@ -131,9 +131,13 @@ Un programa de Arduino se denomina sketch o proyecto y tiene la extensión .ino
 Importante: para que funcione el sketch, el nombre del fichero debe estar en un directorio con el mismo nombre que el sketch.
 {: .notice}
 
- - Setup:
-  El código de configuración va en esta seccion.  Por ejemplo, puede que desee mover un servomotor a su posición por defecto o bien, active el Serial Monitor para depurar su código o parpadear un patrón de prueba de LED para hacerle saber que la aplicación ha comenzado.
+Cada sketch contiene dos partes fundamentales que no puden ser olvidadas
 
-- Loop:
+1) **Setup :**
+
+El código de configuración va en esta sección.  Por ejemplo, puede que desee mover un servomotor a su posición por defecto o bien, active el Serial Monitor para depurar su código o parpadear un patrón de prueba de LED para hacerle saber que la aplicación ha comenzado.
+
+2) **Loop :**
+
 Cualquier cosa que ponga aquí se va a ejecutar una y otra vez.
 Aquí es donde debería vivir la mayor parte de su código.  El Arduino pasará por lo que haya aquí indefinidamente hasta que se quede sin energía.
