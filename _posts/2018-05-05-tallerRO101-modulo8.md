@@ -8,13 +8,14 @@ header:
   teaser: "assets/images/progamando.JPG"
 ---
 
-Programar es la tarea de escribir **texto legibles por los humanos** pero que pueda **interpretar un procesador**. Este texto se denomina código de programación.
+# **¿Que es Programar?**
+Programar es la tarea de escribir **lineas de texto** con los pasos que debe seguir un procesador. Estas lineas de texto se denominan código fuente.
 
 <q>_Programar es un arte_</q>
 
 A diferencia de los demás temas asociados a la robótica, la programación es mas arte que ciencia. Esto es porque para ser hábil en programación se necesita mucha practica, paciencia y documentación.
 
-No te preocupes si es tu primera vez programando, **siempre hay conceptos desconocidos**, pero de a poco se comprende el funcionamiento y se progresa.
+No te preocupes si es tu primera vez programando, **siempre hay conceptos desconocidos**, pero de a poco se conoce mas sobre el código fuente y se progresa.
 {: .notice--info}
 
 ## **Seteando las herramientas**
@@ -33,17 +34,16 @@ Siempre que inicie una tarea de programación revise las herramientas que dispon
    - PlatformIO IDE
    - Notepad++ con plugin para arduino
    - Stino plugin para sublimeText
-   - Atmel Studio
-   - gedit
+   - Cualquier editor de texto, habilitando la opción de editor externo en arduino IDE
 
 2) **Color y letra de su editor :**
 
   Aunque los IDE's tienen la capacidad de cambiar esta configuración, *no la tome a la ligera!!*.
-  En general utilice colores oscuros para el fondo y letras legibles(como negrita) de color blanco. Esto reducirá el cansancio de estar leyendo su código por varios minutos.
+  En general utilice colores oscuros para el fondo y letras legibles (como negrita) de color blanco. Esto reducirá el cansancio de estar leyendo su código fuente por varios minutos.
 
 3) **Documentación :**
 
-  Se acostumbra a decir que sin documentación los proyectos no funcionan. Para programar, también se utiliza documentación, en general guiás de apoyo y la estructura de los pines. **Siempre** tenga a mano la documentación de sus dispositivos, tanto el hardware como el software.
+  Se acostumbra a decir que sin documentación los proyectos no funcionan. Para programar, también se utiliza documentación, en general guiás de apoyo y la estructura de los pines de su placa electrónica. **Siempre tenga a mano la documentación de sus dispositivos**, tanto el hardware como el software.
 
   [<i class="fas fa-download"></i> Documentación Pines Arduino nano](/assets/documentacion/nano_pinout.pdf){: .btn .btn--info}
   [<i class="fas fa-download"></i> Documentación guía de apoyo en español](/assets/documentacion/ProgramacionArduino.pdf){: .btn .btn--info}
@@ -59,7 +59,7 @@ Siempre que inicie una tarea de programación revise las herramientas que dispon
 
 1) **Sintaxis :**
 
-Cada lenguaje de programación tiene una manera de ser formateado. Eso es básicamente el equivalente de conocer la gramática apropiada. Por ejemplo, la mayoría de las expresiones en programación terminan con un punto y coma, así **(;)**. Esto es como escribir un punto al final de la oración.
+Cada lenguaje de programación tiene una manera de ser formateado. Por ejemplo, la mayoría de las expresiones en programación terminan con un punto y coma, así **(;)**. Esto es como escribir un punto al final de la oración.
 
 Si escribes un ensayo sin puntos confundirás al lector. Del mismo modo, si escribes un programa Arduino sin sintaxis, confundirás al compilador.
 
@@ -72,7 +72,7 @@ Si escribes un ensayo sin puntos confundirás al lector. Del mismo modo, si escr
 
 2) **Expresiones de código :**
 
-Al leer y escribir código encontrarás algunos bloques básicos de construcción como lo harías en cualquier otro idioma. Por ejemplo, el español tiene sustantivos, adjetivos y verbos. Estos componentes se estructuran en oraciones. La programación a su vez tiene **constantes**, **variables**, **operadores**, entre otros. Éstos se estructuran en funciones. Veremos cada uno de estos en detalle.
+Al leer y escribir código encontrarás algunos bloques básicos de construcción como lo harías en cualquier otro idioma. Por ejemplo, el español tiene sustantivos, adjetivos y verbos. Estos componentes se estructuran en oraciones. La programación a su vez tiene **constantes**, **variables**, **operadores**, entre otros. Éstos se estructuran en **funciones**. Veremos cada uno de estos en detalle.
 
 - Constantes
 :   Las constantes son términos que se definen una vez y no cambian.
@@ -108,13 +108,13 @@ void setup(){}
 void loop(){}
 ```
 
-- Estructuras basicas y de control
+- Estructuras básicas y de control
 :    son conjunto de palabras que general un control del flujo de funciones
 
 ``` c++
-if () {...} else{...}
-while(){...}
-for(int i= 0; i<10; i++)
+if () {...} else{...} // sirve para expresiones condicionales
+while(){...} // sirve para realizar una accion "MIENTRAS" se produzca cierta condicion
+for(int i= 0; i<10; i++) // itera hasta que se cumple la condición
 ```
 
 - Bibliotecas(libraries)
@@ -131,7 +131,7 @@ Un programa de Arduino se denomina sketch o proyecto y tiene la extensión .ino
 Importante: para que funcione el sketch, el nombre del fichero debe estar en un directorio con el mismo nombre que el sketch.
 {: .notice}
 
-Cada sketch contiene dos partes fundamentales que no puden ser olvidadas
+Cada sketch contiene dos partes fundamentales que no pueden ser olvidadas. Estas son el setup y el loop.
 
 1) **Setup :**
 
@@ -141,3 +141,115 @@ El código de configuración va en esta sección.  Por ejemplo, puede que desee 
 
 Cualquier cosa que ponga aquí se va a ejecutar una y otra vez.
 Aquí es donde debería vivir la mayor parte de su código.  El Arduino pasará por lo que haya aquí indefinidamente hasta que se quede sin energía.
+
+
+## Diagramas de flujo
+
+Antes de comenzar a programar, existe un método muy útil de estructurar las ideas de programación, llamado **diagrama de flujo**. Usted siempre debería hacer este ejercicio antes de comenzar a escribir código.
+
+El diagrama de flujo consite en gfraficar de manera consistente un flujo de control. Veamos un ejemplo.
+
+{:refdef: style="text-align: center;"}
+![diagrama](/../assets/images/diagrama/diagrama_flujo.jpeg){: height="60%"  width="60%"}
+{: refdef}
+Bloques verdes representan funciones. Amarillos condicionales
+{: style="color:gray; font-size: 80%; text-align: center;"}
+
+En este caso vemos como el flujo de control "Cocinar y Servir un huevo" tiene un flujo de control.
+
+Revisemos ahora el siguiente caso
+
+{:refdef: style="text-align: center;"}
+![diagrama](/../assets/images/diagrama/diagrama_flujo_example.jpg){: height="40%"  width="40%"}
+{: refdef}
+
+La diferencia de este caso es la recursividad de la tarea que se ejecuta permanentemente.
+
+## Ejercios
+
+Tratemos de programar nuestra propia lineas de código. Como ejemplo, utilizaremos el sensor de distancia ultrasonico como en el ejemplo del modulo 5.
+Programen un código que cumpla la condición
+"Si la distancia medida por el sensor ultrasonico es mayor a X, enciende un led. Si es menor o igual, lo apaga."
+
+## Punte H
+
+Ahora veremos como programar un punte H. Recuerde siempre tener a mano la documentación de su chip antes de comenzar a trabajar.
+
+[<i class="fas fa-download"></i> Documentación Puente H](/assets/documentacion/datasheet-l9110.pdf){: .btn .btn--info}
+
+ - Teoria del Punte H :
+    El puente H es un dispositivo que es capaz de controlar motores DC, pudiendo regular la velocidad de giro y la dirección. Esto lo hace a través de modificar los caminos de corriente que tiene el circuito.
+
+    {:refdef: style="text-align: center;"}
+    ![diagrama](/../assets/images/puenteh.png){: height="60%"  width="60%"}
+    {: refdef}
+
+  - Funcionamiento en código :
+    Para cambiar la dirección de giro de un motor con puente H, solo debe elegir la secuencia correcta de interruptores a trabajar. Continuación se presenta un código que permite trabajar con puente H.
+
+
+```c++
+
+const int AIA = 9;  // (pwm) pin 9 connected to pin A-IA
+const int AIB = 5;  // (pwm) pin 5 connected to pin A-IB
+const int BIA = 10; // (pwm) pin 10 connected to pin B-IA  
+const int BIB = 6;  // (pwm) pin 6 connected to pin B-IB
+
+byte speed = 255;  // change this (0-255) to control the speed of the motors
+
+void setup() {
+  pinMode(AIA, OUTPUT); // set pins to output
+  pinMode(AIB, OUTPUT);
+  pinMode(BIA, OUTPUT);
+  pinMode(BIB, OUTPUT);
+}
+
+void loop() {
+  forward();
+  delay(1000);
+  backward();
+  delay(1000);
+  left();
+  delay(1000);
+  right();
+  delay(1000);
+}
+
+void backward()
+{
+  analogWrite(AIA, 0);
+  analogWrite(AIB, speed);
+  analogWrite(BIA, 0);
+  analogWrite(BIB, speed);
+}
+
+void forward()
+{
+  analogWrite(AIA, speed);
+  analogWrite(AIB, 0);
+  analogWrite(BIA, speed);
+  analogWrite(BIB, 0);
+}
+
+void left()
+{
+  analogWrite(AIA, speed);
+  analogWrite(AIB, 0);
+  analogWrite(BIA, 0);
+  analogWrite(BIB, speed);
+}
+
+void right()
+{
+  analogWrite(AIA, 0);
+  analogWrite(AIB, speed);
+  analogWrite(BIA, speed);
+  analogWrite(BIB, 0);
+}
+```
+
+Modifique el código, para ejecutar una rutina de control a su gusto, utilizando las funciones backward(), forward(), left(), right().
+
+Si tiene instalado el modulo de ldr, puede revisar los siguientes ejemplos
+[<i class="fas fa-download"></i> Ejemplo Robot con LDR 1](/assets/codigos/robot-ldr.zip){: .btn .btn--info}
+{: .notice}
