@@ -30,7 +30,7 @@ feature_row:
   - image_path: /assets/images/code-re.jpg
     #alt: "100% free"
     title: "100% Open Source"
-    excerpt: "Todos nuestros talleres, proyectos y códigos son de código libre."
+    excerpt: "Todos nuestros talleres y proyectos son de código libre."
     url: "https://www.github.com/javierhcortes/robotica-en-conce"
     btn_class: "btn--primary"
     btn_label: "Visitar"
@@ -38,7 +38,7 @@ github:
   - excerpt: ''
 intro:
   - excerpt: 'Taller en curso: Robótica para principiantes <br/>
-  Fecha: Sábados 14, 21, 28 de abril y Sábado 5 de mayo de 9:30 a 12:00 <br/>
+  Fecha: Sábados 14, 21, 28 de abril, 5 de mayo y 12 de mayo de 10:00 a 12:30 <br/>
   Lugar: Centro de Creación Concepción - Martínez de Rosas 520, Concepción<br/>
   <a href="/posts/primer-taller">Inscripciones cerradas! </a>'
 ---
