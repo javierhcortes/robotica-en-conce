@@ -91,17 +91,19 @@ Estos cables pasaran a través del agujero posterior hacia la parte superior del
 Puede conectar las ruedas ahora. ( Rueda loca y ruedas del motor DC)
 
 
-3) conecte el punte H y este  la protoboard
+3) conecte el punte H y este a la protoboard
 
 {:refdef: style="text-align: center;"}
 ![12](/../assets/images/robotkit/12.jpg){: height="80%"  width="80%"}
 {: refdef}
 
+la secuencia de pines del puente H, **conectada a la proto**
+
 {:refdef: style="text-align: center;"}
-![13](/../assets/images/robotkit/13.jpg){: height="80%"  width="80%"}
+![13](/../assets/images/robotkit/13-new.jpg){: height="80%"  width="80%"}
 {: refdef}
 
-la secuencia de pines del puente H de izquierda a derecha es
+es esta referencia de orden.
 
 | pin1 | pin2 | pin3 | pin4 | pin5 | pin6 |
 |------|------|------|------|------|------|
