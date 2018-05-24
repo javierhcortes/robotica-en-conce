@@ -3,7 +3,7 @@ layout: splash
 permalink: /
 header:
   overlay_color: "#5b709f"
-  overlay_image: /assets/images/front.JPG
+  overlay_image: /assets/images/todos.JPG
   cta_label: "<i class='fa fa-child'></i> Detalle del curso e inscripciones!"
   cta_url: "/posts/primer-taller/"
   caption:
@@ -19,7 +19,7 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Info Taller: Robótica para principiantes"
 
-  - image_path: /assets/images/240x120.jpg
+  - image_path: /assets/images/robots-pelea.jpg
     #alt: "fully responsive"
     title: "Punto de encuentro"
     excerpt: "Nos reunimos periódicamente para mostrar nuestras creaciones!"
@@ -27,20 +27,18 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Ubicacion"
 
-  - image_path: /assets/images/code-re.jpg
+  - image_path: /assets/images/code2.jpg
     #alt: "100% free"
     title: "100% Open Source"
     excerpt: "Todos nuestros talleres y proyectos son de código libre."
     url: "https://www.github.com/javierhcortes/robotica-en-conce"
     btn_class: "btn--primary"
-    btn_label: "Visitar"
+    btn_label: "Revisa nuestro Github"
 github:
   - excerpt: ''
 intro:
-  - excerpt: 'Taller en curso: Robótica para principiantes <br/>
-  Fecha: Sábados 14, 21, 28 de abril, 5 de mayo y 12 de mayo de 10:00 a 12:30 <br/>
-  Lugar: Centro de Creación Concepción - Martínez de Rosas 520, Concepción<br/>
-  <a href="/posts/primer-taller">Inscripciones cerradas! </a>'
+  - excerpt: '**Taller Finalizado**: Robótica para principiantes <br/>
+  Pronto mas información con la fecha del próximo taller.'
 ---
 
 {% include feature_row id="intro" type="center" %}

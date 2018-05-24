@@ -1,10 +1,10 @@
 ---
 title: "Detalle armado Kit 'Robotica en conce v1'"
 date: 2018-05-12 13:00:00 -0300
-permalink: /posts/RO101-modulo6/
+permalink: /posts/RO101-armado-kit/
 description : detalle del como armar el robot con los materiales en el kit
 header:
-  teaser: "assets/images/motors/motores-pre.jpg"
+  teaser: "assets/images/robots-pelea.jpg"
 ---
 
 # Detalle y piezas del kit Robot
