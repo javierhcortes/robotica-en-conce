@@ -9,15 +9,14 @@ header:
   caption:
 excerpt: 'Talleres de robótica para penquistas! <br/> Ven a fabricar con nosotros tu próximo robot!'
 
-#<small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.10.1">Latest release v4.11.1</a></small><br/><br/> '
 feature_row:
   - image_path: /assets/images/kit-ligth.jpg
     #alt: "customizable"
     title: "Próximos talleres"
-    excerpt: "Estamos construyendo talleres para cada nivel de aprendizaje."
+    excerpt: "<b>Inscripciones abiertas!</b> Taller de Robótica para principiantes."
     url: "/posts/primer-taller/"
     btn_class: "btn--primary"
-    btn_label: "Info Taller: Robótica para principiantes"
+    btn_label: "Información del Taller: Robótica para principiantes"
 
   - image_path: /assets/images/robots-pelea.jpg
     #alt: "fully responsive"
@@ -25,20 +24,22 @@ feature_row:
     excerpt: "Nos reunimos periódicamente para mostrar nuestras creaciones!"
     url: "https://goo.gl/maps/pmo4cBCgDm72"
     btn_class: "btn--primary"
-    btn_label: "Ubicacion"
+    btn_label: "Ubicación del taller"
 
   - image_path: /assets/images/code2.jpg
     #alt: "100% free"
-    title: "100% Open Source"
-    excerpt: "Todos nuestros talleres y proyectos son de código libre."
+    title: "Codigos abiertos a la comunidad"
+    excerpt: "Toda la información del taller esta abierta a la comunidad.
+    Nuestros códigos, manuales e instrucciones se pueden acceder desde nuestro repositorio central. 100% Open Source"
     url: "https://www.github.com/javierhcortes/robotica-en-conce"
     btn_class: "btn--primary"
-    btn_label: "Revisa nuestro Github"
+    btn_label: "Revisa nuestros codigos, manuales y talleres"
 github:
   - excerpt: ''
 intro:
-  - excerpt: '**Taller Finalizado**: Robótica para principiantes <br/>
-  Pronto mas información con la fecha del próximo taller.'
+  - excerpt: '**Inscripciones Abiertas!: Robótica para principiantes** <br/>
+  Fecha: Sabado 20, 27 de Septiembre y 6, 13 de Octubre de 14:30 a 17:00 hrs. <br/>
+  Lugar : Centro de Creación Concepción - Martinez de Rosas 50, Concepción<br/>'
 ---
 
 {% include feature_row id="intro" type="center" %}
