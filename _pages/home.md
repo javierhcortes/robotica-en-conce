@@ -28,7 +28,7 @@ feature_row:
 
   - image_path: /assets/images/code2.jpg
     #alt: "100% free"
-    title: "Codigos abiertos a la comunidad"
+    title: "Códigos abiertos a la comunidad"
     excerpt: "Toda la información del taller esta abierta a la comunidad.
     Nuestros códigos, manuales e instrucciones se pueden acceder desde nuestro repositorio central. 100% Open Source"
     url: "https://www.github.com/javierhcortes/robotica-en-conce"
@@ -38,8 +38,10 @@ github:
   - excerpt: ''
 intro:
   - excerpt: '**Inscripciones Abiertas!: Robótica para principiantes** <br/>
-  Fecha: Sabado 20, 27 de Septiembre y 6, 13 de Octubre de 14:30 a 17:00 hrs. <br/>
-  Lugar : Centro de Creación Concepción - Martinez de Rosas 50, Concepción<br/>'
+  Fecha: Sábado 22, 29 de Septiembre y 6, 13 de Octubre de 14:30 a 17:00 hrs. <br/>
+  Lugar : Centro de Creación Concepción - Martínez de Rosas 50, Concepción<br/>
+   <a href="/posts/primer-taller/">Detalle e inscripciones aquí</a>'
+
 ---
 
 {% include feature_row id="intro" type="center" %}
