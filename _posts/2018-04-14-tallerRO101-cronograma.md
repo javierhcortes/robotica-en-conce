@@ -7,11 +7,11 @@ description : cronograma del taller 'robótica para principiantes'
 
 #### El taller se divide en cuatro clases, cada clase consta de un taller teórico y practico.
 
-|  	| Sábado 14 	| Sábado 21 	| Sábado 28 	| Sábado 5 	|
+|  	| Sábado 22 	| Sábado 29 	| Sábado 6 	| Sábado 13 	|
 |:-------------:	|:-------------:	|:---------:	|:---------:	|:--------:	|
-| 9:30 - 10:30 	| Módulos 1 y 2 	| Modulo 4 	| Modulo 6 	| Modulo 8 	|
-| 10:30 - 10:45 	| break 	| break 	| break 	| break 	|
-| 10:45 - 12:00 	| Modulo 3 	| Modulo 5 	| Modulo 7 	| Modulo 9 	|
+| 14:30 - 15:30 	| Módulos 1 y 2 	| Modulo 4 	| Modulo 6 	| Modulo 8 	    |
+| 15:30 - 15:45 	| break 	        | break 	  | break 	  | break 	      |
+| 15:45 - 17:00 	| Modulo 3 	      | Modulo 5 	| Modulo 7 	| Modulo 9 	    |
 
 # Día 1
 ## Modulo 1 - Presentación
@@ -20,7 +20,7 @@ description : cronograma del taller 'robótica para principiantes'
  * Presentación taller
  * Programa, lineamientos y cronograma del taller
  * Interacción con grupo
- * Visitar [Web](roboticaenconce.cl)
+ * Visitar [Web](www.roboticaenconce.cl)
  * Entrega material digital
  * Entrega del Kit
 
@@ -37,7 +37,6 @@ description : cronograma del taller 'robótica para principiantes'
  * Demostración Robot programable
  * Anillo LED (intensidad variable con PWM)
  * Sensor Ultrasonido
- * Sensor táctil
 
 # Día 2
 
