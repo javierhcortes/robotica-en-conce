@@ -13,7 +13,7 @@ header:
 
 # Electricidad y Electrónica
 
-Aquí presentaremos algunos conceptos teóricos que muestran conceptos recurrentes, en electricidad y electrónica necesaria para la robótica práctica. Apenas estaremos arañando la superficie de la ciencia y la tecnología detrás de estos conceptos.
+Aquí presentaremos algunos conceptos teóricos recurrentes en electricidad y electrónica necesaria para la robótica práctica. Apenas estaremos arañando la superficie de la ciencia y la tecnología detrás de estos conceptos.
 
 **Definición de ELECTRICIDAD**
 > La electricidad es el conjunto de fenómenos físicos asociados con la presencia y el movimiento de la carga eléctrica.
@@ -21,7 +21,7 @@ Aquí presentaremos algunos conceptos teóricos que muestran conceptos recurrent
 **Definición de ELECTRÓNICA**
 > Ciencia y tecnología que regula el flujo de electricidad.
 
-En pocas palabras, son ciencias que estudian y controlar el movimiento de los electrones. La regulación de los electrones ha permitido algunas de las innovaciones más importantes del siglo pasado, como computadoras, televisores.
+En pocas palabras, son ciencias que estudian y controlar el movimiento de los electrones. La regulación de los electrones ha permitido algunas de las innovaciones más importantes del siglo pasado como las computadoras.
 
 ## Voltaje, Corriente y Potencia
 
@@ -67,18 +67,18 @@ Se trata principalmente de pilas AAA, AA, C y D.
 
 Lo que cambia entra las baterías son el voltaje que entregan y la energía que pueden almacenar. La manera de comparar baterías, es a través de su _capacidad_ que se miden en Amperios Horas [Ah]. Esta es básicamente la medida de cuántos amperios se pueden extraer de la batería en una hora. Por ejemplo, una batería de **20[Ah]** le permitirá consumir **4 amperes** durante **5 horas**.
 
-La diferencia entre una batería de **9[V]** y un grupo de baterías de **1.5[V]** es que las baterías no ofrecen mucha corriente y se agotan rápidamente al hacer cosas como alimentar motores. Por lo tanto, no son buenos para algunos aspectos de la robótica. Por esto utilizaremos baterías de **9[V]** esta para alimentar al micro-controlador y las pilas de **1.5[V]** para alimentar a los motores DC.
+La diferencia entre una batería de **9[V]** y un grupo de pilas de **1.5[V]** es que las baterías no ofrecen mucha corriente y se agotan rápidamente al hacer cosas como alimentar motores. Por lo tanto, no son buenas para algunos aspectos de la robótica. Por esto utilizaremos baterías de **9[V]** esta para alimentar al micro-controlador y las pilas de **1.5[V]** para alimentar a los motores DC.
 
-|           | Voltaje  | Corriente  | Resistencia | Capacidad  |
-|-----------|:--------:|:----------:|:-----------:|:----------:|
-|**Unidad** | Volt     | Ampere     | Ohm         | AmpereHora |
-|**Símbolo**|  [V]     |    [A]     |  [Ω]        |    [Ah]    |
+|           | Voltaje  | Corriente  | Resistencia | Capacidad  | energía   |
+|-----------|:--------:|:----------:|:-----------:|:----------:|:----------:
+|**Unidad** | Volt     | Ampere     | Ohm         |Ampere-Hora | Watt-Hora |
+|**Símbolo**|  [V]     |    [A]     |  [Ω]        |    [Ah]    |  [Wh]     |
 
-## Conexiones Serie y Paralelo
+## Conexiones Serie
 
-Puede que te preguntes ¿Cómo puedes alimentar cualquier cosa si las baterías son sólo **1.5[V]**? La respuesta es bastante simple. Los conectamos en serie.
+Puede que te preguntes ¿Cómo puedes alimentar cualquier cosa si las pilas son sólo **1.5[V]**? La respuesta es bastante simple. Los conectamos en serie.
 
-Esto significa que los conectamos de frente a atrás en una fila. Por lo tanto, el extremo positivo (+) de una batería se conecta a la toma de tierra (-) de la batería siguiente, y así sucesivamente.
+Esto significa que los conectamos de frente a atrás en una fila. Por lo tanto, el terminal positivo (+) de una pila se conecta al terminal negativo (-) de la siguiente, y así sucesivamente.
 
 ![baterias](/../assets/images/bateria-serie.jpg)
 Dos pilas en serie
@@ -86,30 +86,9 @@ Dos pilas en serie
 
 A continuación, podemos calcular el nuevo voltaje simplemente sumando **1.5 [V]** para cada batería de la serie.
 
-Por lo tanto, si usted tiene tres baterías de 1.5V en serie, lo calcularíamos así:
+Por lo tanto, si usted tiene tres pilas de 1.5V en serie, lo calcularíamos así:
 
     1.5V + 1.5V + 1.5V = 4.5V
-
-En lugar de colocar baterías en serie, también podemos conectarlas una al lado de la otra. Esto se llama paralelo. Cuando se conectan en paralelo fuentes de alimentación idénticas, la tensión se mantiene igual, pero la cantidad de corriente disponible aumenta. Esto es útil cuando no tiene suficiente corriente para alimentar su circuito.
-
-{:refdef: style="text-align: center;"}
-![baterias](/../assets/images/bateria-paralelo.jpg){:height="70%" width="70%"}
-{: refdef}
-
-Dos pilas en paralelo
-{: style="color:gray; font-size: 80%; text-align: center;"}
-
-**Atención!** Tenga en cuenta que esto sólo funcionará si las baterías tienen exactamente el mismo voltaje y debe evitarse si es posible. **Sin el circuito de protección adecuado**, la fluctuación en el voltaje entre las baterías los forzará a tratar de cargarse unos a otros, disminuyendo su vida útil.
-{: .notice--warning}
----
-## **Actividad Práctica de medición de componentes.**
-
-### Medición con Multi-tester
-- Medir voltaje en la fuente de voltaje controlada
-- Medir voltaje en pilas y baterías
-- Medir resistencia de Motores KIT y motores de ensayo
-- Medir resistencia de potenciómetro
----
 
 ## Ley de ohm
 
@@ -121,9 +100,20 @@ Una ley fundamental de la electricidad es la ley de ohm, la que nos dice que la 
 
 Sin duda una relación muy importante en robótica, sobretodo al dimensionar nuestros actuadores y la cantidad de corriente que necesitar utilizar.
 
+---
+## **Actividad Práctica de medición de componentes.**
+
+### Medición con Multi-tester
+- Medir voltaje en la fuente de voltaje controlada
+- Medir voltaje en pilas y baterías
+- Medir resistencia de Motores KIT y motores de ensayo
+- Medir resistencia de potenciómetro
+- Calculo corriente que usara el motor al conectarse a las pilas
+---
+
 ## Tipo Señales (Análoga / Digital)
 
-* **La señal analógica** es aquella que presenta una variación continua con el tiempo, es decir, que a una variación del tiempo le corresponderá una variación del valor de la señal (la señal es continua).
+* **La señal analógica** es aquella variable que presenta una variación continua con el tiempo, es decir, que a una variación del tiempo le corresponderá una variación del valor de la variable (la variable es continua).
 
 ![analoga](/../assets/images/señal-analoga.png)
 
@@ -131,7 +121,7 @@ Sin duda una relación muy importante en robótica, sobretodo al dimensionar nue
 {: style="color:gray; font-size: 80%; text-align: center;"}
 
 
-Las señales analógicas predominan en nuestro entorno (variaciones de temperatura, presión, velocidad, distancia, sonido etc.) y son transformadas en señales eléctricas, mediante el adecuado transductor, para su tratamiento electrónico.
+Las señales analógicas predominan en nuestro entorno (variaciones de temperatura, presión, velocidad, distancia, intensidad del sonido etc.) y son transformadas en señales eléctricas, mediante el adecuado transductor, para su tratamiento electrónico.
 
 * **La señal digital** es aquella que presenta una variación discontinua con el tiempo y que sólo puede tomar ciertos valores discretos. Su forma característica es ampliamente conocida: la señal básica es una onda cuadrada (pulsos).
 
@@ -146,11 +136,11 @@ Los parámetros mas importantes son:
   - Frecuencia de repetición (velocidad pulsos por segundo)
 
 
-## Señales de entrada (Análoga/Digital) y salida (digital/PWM)
+## Señales de entrada (Análoga/Digital) y salida (PWM/digital)
 
-En los micro-controladores, tenemos dos tipos de direcciones en los que va la información. Entrada (IN/OUT) y Salida (Sensores/Actuadores).
+En los micro-controladores, tenemos dos tipos de direcciones en los que va la información. Entrada (Sensores) y Salida (Actuadores).
 
-De esta división vemos que el microcontrolador es capaz de obtener señales análogas como digitales desde sus sensores (input). Pero para la salida solo puede generar señales digitales y el denominado **Modulación por ancho de pulso** o **PWM** por sus siglas en ingles.
+El microcontrolador es capaz de obtener señales análogas como digitales desde sus sensores (input). Pero para la salida solo puede generar señales digitales y el denominado **Modulación por ancho de pulso** o **PWM** por sus siglas en ingles.
 
 **PWM**
   > Es una técnica que logra producir el efecto de una señal analógica sobre una carga, a partir de la variación de la frecuencia y ciclo de trabajo de una señal digital.
