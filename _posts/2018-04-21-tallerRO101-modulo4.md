@@ -35,7 +35,7 @@ Si pensáramos en la electricidad como un río, los voltios serían la altura de
 
 * **Corriente:**
 
-> Es una magnitud física que cuantifica el flujo de carga eléctrica que pasa a través de un conductor. La corriente se mide en amperios.
+> Es una magnitud física que cuantifica el flujo de carga eléctrica que pasa a través de un conductor por unidad de tiempo. La corriente se mide en amperios.
 
 Si pensáramos en la electricidad como un río y los voltios representan la altura del agua, entonces la corriente es el flujo o caudal del rio.
 
