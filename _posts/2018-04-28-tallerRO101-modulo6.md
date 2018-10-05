@@ -16,12 +16,12 @@ Veamos algunos conceptos para familiarizarnos con los motores
 > Es una máquina que transforma la energía eléctrica en energía mecánica. Dicho de otra manera, cuando esta máquina funciona con electricidad, se mueve, normalmente rotando.
 
 * **Velocidad**
-> es la cantidad de distancia que recorre un objeto en una unidad de tiempo
+> es la cantidad de distancia que recorre un objeto en una unidad de tiempo. se mide en revoluciones por minuto
 
 * **Torque**
-> es la cantidad de fuerza de rotación que un motor puede aplicar
+> es la fuerza que produce rotación.
 
-Hay tres tipos comunes de motores que usted encontrará típicamente en la robótica. Esto no quiere decir que estos son los únicos tipos de motores que existen, pero son los motores con los que es más probable que usted trabaje.
+Hay tres tipos comunes de motores que usted encontrará típicamente en la robótica. Esto no quiere decir que estos son los únicos tipos de motores que existen, pero son los mas utilizados y faciles de adquirir.
 
 ## Motores de corriente continua (CC)
 
@@ -56,7 +56,7 @@ Un servomotor es básicamente un tipo especial de motorreductor, tiene una placa
 
 Dado que un potenciómetro sólo se puede girar hasta cierto angulo, estos motores no pueden girar más allá de su ángulo máximo. También poseen topes físicos en sus engranes para evitar que el servo se extienda más allá de su ángulo de rotación máximo.
 
-Si estas diseñando un brazo robot, puedes utilizar un servo para controlar cada articulación. De este modo, cada articulación se moverá a una posición muy precisa lo que permite realizar tareas muy complejas.
+Si estas diseñando un brazo robot, puedes utilizar un servo para controlar cada articulación. De este modo, cada articulación se moverá a una posición muy precisa lo que permite realizar tareas más complejas.
 {: .notice}
 
 
