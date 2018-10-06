@@ -17,11 +17,11 @@ Mostraremos los ejemplos, el cableado con tu microcontrolador y el código que d
 ## Documentación a descargar
 Para tu comodidad, puedes bajar los códigos antes de comenzar.
 
-[<i class="fas fa-download"></i> Descargar los códigos y su documentación aquí](/../assets/codigos/codigos.zip){: .btn .btn--success}
+[<i class="fas fa-download"></i> Descargar códigos & documentación aquí](/../assets/codigos/codigos.zip){: .btn .btn--success}
 
 ## Ejemplo 1 "Parpadeo"
 
-Este ejemplo muestra la cosa más simple que puedes hacer con tu Arduino para ver la salida física, parpadea el LED de la placa.
+Este ejemplo muestra lo más simple que puedes hacer con tu Arduino para ver su funcionamiento, parpadear el LED integrado.
 
 1) **Hardware Requerido**
   * Cable USB
@@ -87,13 +87,31 @@ Por ultimo, dale click a el botón de compilar y de subir, para que el código s
 * Arduino nano
 * Cable usb
 * Resistencia
-* pulsador
+* Pulsador
+* Protoboard
 
 2) **Circuito**  
-Arme el siguiente circuito
+
+Para este ejemplo, usaremos el protoboard, que es un elemento para hacer prototipós de circuitos
+electónicos. Esta construido de manera que hay uniones electricas entre distintos puntos de la tarjeta.
 
 {:refdef: style="text-align: center;"}
-![duty](/../assets/codigos/ejemplo2.jpg)
+![duty](/../assets/images/protoboard.jpg){: height="60%"  width="60%"}
+{: refdef}
+
+
+Tambien utilizaremos un pulsador, que es un elemento capaz de abrir o cerrar el paso de electricidad.
+en particular ocuparemos un pulsador de cuatro pines. Tiene el siguiente diagrama
+
+{:refdef: style="text-align: center;"}
+![duty](/../assets/images/switch_6mm.png)
+{: refdef}
+
+Ahora arme el siguiente circuito
+
+
+{:refdef: style="text-align: center;"}
+![duty](/../assets/images/digital_schema.png)
 {: refdef}
 
 3) **Código**
@@ -126,17 +144,18 @@ void loop() {
 }
 ```
 
-## ejemplo 3  "Leer un voltaje análogo"
+## Ejemplo 3  "Leer un voltaje análogo"
 
 1) **Hardware Requerido**
 * Arduino nano
 * Cable usb
 * Potenciometro
+
 2) **Circuito**  
 Arme el siguiente circuito
 
 {:refdef: style="text-align: center;"}
-![duty](/../assets/codigos/ejemplo3y4.jpg)
+![duty](/../assets/images/potenciometro_schema.png)
 {: refdef}
 
 3) **Código**
@@ -167,12 +186,13 @@ void loop() {
 }
 ```
 
-## ejemplo 4 "Entrada análoga"
+## Ejemplo 4 "Entrada análoga"
 
 1) **Hardware Requerido**
 * Arduino nano
 * Cable usb
 * Potenciometro
+
 2) **Circuito**  
 Arme el siguiente circuito
 
@@ -283,6 +303,7 @@ Arme el siguiente circuito **"referencial"**
 
 
 3) **Código**
+
 Debe instalar la libreria de manejo de pixeles.
 disponible en este repositorio:
 
