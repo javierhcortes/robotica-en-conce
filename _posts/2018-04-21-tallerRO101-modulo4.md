@@ -24,7 +24,6 @@ Aquí presentaremos algunos conceptos teóricos recurrentes en electricidad y el
 En pocas palabras, son ciencias que estudian y controlar el movimiento de los electrones. La regulación de los electrones ha permitido algunas de las innovaciones más importantes del siglo pasado como las computadoras.
 
 ## Voltaje, Corriente y Potencia
-
 Para poder comunicarnos en el lenguaje técnico, mostraremos algunas de las magnitudes mas utilizadas
 
 * **Voltaje:**

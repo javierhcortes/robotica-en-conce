@@ -71,9 +71,20 @@ Como regla general, cuanto más grande sea el motor que usted elija, más voltaj
 Cuanto más voltaje se aplica a un motor, más rápido gira.
 {: style="color:gray; font-size: 100%; text-align: center;"}
 
-Sin embargo, como toda la electrónica, los motores tienen un rango de voltaje óptimo y nunca deben exceder su voltaje máximo. Esto significa que los motores de corriente continua también tienen una velocidad máxima (a su voltaje de funcionamiento máxima).
+Sin embargo, como toda la electrónica, los motores tienen un rango de voltaje óptimo y nunca deben exceder su voltaje máximo. Esto significa que los motores de corriente continua también tienen una velocidad máxima (a su voltaje de funcionamiento máximo).
 
-Por regla general, cuanto más rápido gira el motor, menos torque proporciona. Los reductores más lentos proporcionan más torque que los más rápidos, y viceversa.
+
+Estos conceptos llevados a las ecuaciones lo podemos expresar de la siguiente manera.
+
+![ecuaciones-torque-velocidad](/assets/images/grafico_motores.png)
+
+
+> La relación Torque Velocidad es inversamente proporcional
+
+> La relación Torque Corriente es directamente proporcional
+
+Por regla general, cuanto más rápido gira el motor, menos torque proporciona. 
+Y a mayor corriente suministrada, mas torque es capaz de ejercer.
 
 # Mecánica
 
