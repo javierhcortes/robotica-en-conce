@@ -120,10 +120,11 @@ del ejemplo de punte H del modulo 'Software y Programación'
 
 ```c++
 
-const int AIA = 9;  // (pwm) pin 9 connected to pin A-IA
-const int AIB = 5;  // (pwm) pin 5 connected to pin A-IB
 const int BIA = 10; // (pwm) pin 10 connected to pin B-IA  
 const int BIB = 6;  // (pwm) pin 6 connected to pin B-IB
+
+const int AIA = 9;  // (pwm) pin 9 connected to pin A-IA
+const int AIB = 5;  // (pwm) pin 5 connected to pin A-IB
 ```
 
 {:refdef: style="text-align: center;"}
