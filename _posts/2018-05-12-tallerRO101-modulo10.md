@@ -77,14 +77,14 @@ Bateria
 1) Conecte los motores DC al chasis con los soportes. Procure que los tornilllos no salgan excesivamente del chasis, podría detener la rueda. La cruz del centro del chasis se utiliza para conectar un 'encoder', pero en este kit no esta contemplado su funcionamiento.
 
 {:refdef: style="text-align: center;"}
-![5](/../assets/images/robotkit/5.jpg){: height="80%"  width="80%"}
+![5](/../assets/images/robotkit/5.png){: height="80%"  width="80%"}
 {: refdef}
 
 
 2) Revise que estén los cables de los motores DC, si no, solde un par de cables de a los motores DC. Puede enrollar la terminación con cinta aislante, para prevenir cortes y mejorar la sujeción mecánica de los cables.
 
  {:refdef: style="text-align: center;"}
-![11](/../assets/images/robotkit/11.jpg){: height="80%"  width="80%"}
+![11](/../assets/images/robotkit/11.png){: height="80%"  width="80%"}
 {: refdef}
 
 Estos cables pasaran a través del agujero posterior hacia la parte superior del chasis.
@@ -94,13 +94,13 @@ Puede conectar las ruedas ahora. ( Rueda loca y ruedas del motor DC)
 3) conecte el punte H y este a la protoboard
 
 {:refdef: style="text-align: center;"}
-![12](/../assets/images/robotkit/12.jpg){: height="80%"  width="80%"}
+![12](/../assets/images/robotkit/12.png){: height="80%"  width="80%"}
 {: refdef}
 
 la secuencia de pines del puente H, **conectada a la proto**
 
 {:refdef: style="text-align: center;"}
-![13](/../assets/images/robotkit/13-new.jpg){: height="80%"  width="80%"}
+![13](/../assets/images/robotkit/13_new.jpg){: height="80%"  width="80%"}
 {: refdef}
 
 es esta referencia de orden.
