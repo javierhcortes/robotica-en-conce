@@ -251,5 +251,9 @@ void right()
 Modifique el código, para ejecutar una rutina de control a su gusto, utilizando las funciones backward(), forward(), left(), right().
 
 Si tiene instalado el modulo de ldr, puede revisar los siguientes ejemplos
-[<i class="fas fa-download"></i> Ejemplo Robot con LDR 1](/assets/codigos/robot-ldr.zip){: .btn .btn--info}
+[<i class="fas fa-download"></i> Ejemplo Robot con LDR 1](){: .btn .btn--info}
 {: .notice}
+
+
+This is an example of a [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobotica-1_solo_movimiento/kitRobotica-1_solo_movimiento.ino "Apple").
+

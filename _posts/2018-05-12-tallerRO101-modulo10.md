@@ -161,13 +161,13 @@ Estos sensores van delante de la protoboard.
 ![19](/../assets/images/robotkit/19.jpg){: height="80%"  width="80%"}
 {: refdef}
 
-7) Conecte los pines del sensor ultrasonico a los pines 7 y 8 de su microcontrolador.
+7) Conecte los pines del sensor ultrasonico a los pines 2 y 3 de su microcontrolador.
 
 {:refdef: style="text-align: center;"}
 ![20](/../assets/images/robotkit/20.jpg){: height="80%"  width="80%"}
 {: refdef}
 
-8) Si desea conectar el servomotor y el anillo led, ocupe el pin3 para el servomotor y el pin2 para el anillo led.
+8) Si desea conectar el servomotor y el anillo led, ocupe el pin 12 para el servomotor y el pin 4 para el anillo led.
 Recuerde que esto acortara mas rápido la capacidad de su baterías.
 
 **Listo! Ya tiene todos los componentes para programar su robot. Compruebe por separado cada parte del sus componentes.**
