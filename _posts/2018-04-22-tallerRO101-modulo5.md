@@ -295,7 +295,7 @@ Serial.println(distance);
 * Anillo led 16 pixeles
 
 2) **Circuito**  
-Arme el siguiente circuito **"referencial"**
+Arme el siguiente circuito **"referencial"** . Este diagrama se base en arduino uno, pero es equivalente para arduino nano (use los mismos pines)
 
 {:refdef: style="text-align: center;"}
 ![duty](/../assets/codigos/ejemplo6.png)
@@ -316,7 +316,7 @@ en buscar escriba "Adafruit NeoPixel" e instale la versión 1.1.6(actual)
 ```c++
 #include <Adafruit_NeoPixel.h>
 
-#define PIN 2
+#define PIN 8
 #define STRIPSIZE 16
 
 // Parameter 1 = number of pixels in strip

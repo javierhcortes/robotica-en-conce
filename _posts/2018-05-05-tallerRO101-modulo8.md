@@ -250,10 +250,25 @@ void right()
 
 Modifique el código, para ejecutar una rutina de control a su gusto, utilizando las funciones backward(), forward(), left(), right().
 
-Si tiene instalado el modulo de ldr, puede revisar los siguientes ejemplos
-[<i class="fas fa-download"></i> Ejemplo Robot con LDR 1](){: .btn .btn--info}
+Este ejemplo lo puede encontrar en el siguiente [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobotica-1_solo_movimiento/kitRobotica-1_solo_movimiento.ino "EJemplo Robot1").
+
+Para ejecutar este codigo copie el codigo fuente del enlace anterior y carguelo en su Arduino IDE
 {: .notice}
 
 
-This is an example of a [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobotica-1_solo_movimiento/kitRobotica-1_solo_movimiento.ino "Apple").
+
+## Programación Incremental KIT robot
+
+Asumiremos que usted ha construido su kit de robotica basado en la guia de [Robótica en conce - Guía Armado Kit Robotico](/posts/RO101-armado-kit/)
+
+
+
+Este ejemplo carga el robot con solo movimiento fijo, es decir adelante, atras, izq, derecha [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobotica-1_solo_movimiento/kitRobotica-1_solo_movimiento.ino "Ejemplo Robot1").
+
+Este ejemplo comprueba que su robot funcione el sensor ultrasonico[link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobotica-2_test_sensor_ultrasonico/kitRobotica-2_test_sensor_ultrasonico.ino "Ejemplo Robot2").
+
+este ejemplo comprueba que su robot se mueva en funcion de la lectura del sensor ultrasonico [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobotica-3_movimiento_con_sensor_ultrasonico/kitRobotica-3_movimiento_con_sensor_ultrasonico.ino "Ejemplo Robot3").
+
+Este ejemplo prueba que su robot se mueva en funcion de una medicion del sensor ultrasonico cuando se mueve el servomotor [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobot-4_funcionamiento_servomotor/kitRobot-4_funcionamiento_servomotor.ino "Ejemplo Robot4").
+
 

@@ -170,6 +170,18 @@ Estos sensores van delante de la protoboard.
 8) Si desea conectar el servomotor y el anillo led, ocupe el pin 12 para el servomotor y el pin 4 para el anillo led.
 Recuerde que esto acortara mas rápido la capacidad de su baterías.
 
-**Listo! Ya tiene todos los componentes para programar su robot. Compruebe por separado cada parte del sus componentes.**
 
-**!Programe su robot a gusto!**
+9) para el Anillo led conecte Vcc y gnd al microcontrolador y el pin de DIN (o data Input), conecte al pin4 de su microcontrolador
+
+10) Con el siguiente diagrama podra determinar donde van conectados todos los elementos anteriores.
+
+**Este diagrama indica hacia donde hay que conectar cada elemento. Por ejemplo el sensor ultrasonico tiene la descripcion a los pines '5V', 'D2', 'D3', 'GND' que estan en el lado del microcontrolador** 
+{: .notice--info}
+
+{:refdef: style="text-align: center;"}
+![20](/../assets/images/robotkit/esquematico_robot2.jpg){: height="80%"  width="80%"}
+{: refdef}
+
+**Listo! Ya tiene todos los componentes para programar su robot.**
+
+**! Programe su robot a gusto!**
