@@ -259,16 +259,15 @@ Para ejecutar este codigo copie el codigo fuente del enlace anterior y carguelo 
 
 ## Programación Incremental KIT robot
 
-Asumiremos que usted ha construido su kit de robotica basado en la guia de [Robótica en conce - Guía Armado Kit Robotico](/posts/RO101-armado-kit/)
+Asumiremos que usted ha construido su kit de robótica basado en la guía de [Robótica en conce - Guía Armado Kit Robótico](/posts/RO101-armado-kit/) 
 
+El siguiente es el listado de códigos que ira cargando en su robot. Cada uno demuestra una funcionalidad de su robot. En el ejemplo final tendrá el mismo código utilizado en la primera clase para la demostración de este kit robótico. 
 
+1) Este ejemplo carga el robot con solo movimiento fijo, es decir adelante, atrás, izquierda, derecha. Comprueba que su robot siga ese patrón de movimiento, si no es así, probablemente deba cambiar la polaridad de los motores en su puente H. [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobotica-1_solo_movimiento/kitRobotica-1_solo_movimiento.ino "Ejemplo Robot1"). 
 
-Este ejemplo carga el robot con solo movimiento fijo, es decir adelante, atras, izq, derecha [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobotica-1_solo_movimiento/kitRobotica-1_solo_movimiento.ino "Ejemplo Robot1").
+2) Este ejemplo comprueba que su robot funcione el sensor ultrasonico[link].Cuando lo cargue abra el monitor Serial o monitor gráfico y observe el cambio de distancia. [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobotica-2_test_sensor_ultrasonico/kitRobotica-2_test_sensor_ultrasonico.ino "Ejemplo Robot2"). 
 
-Este ejemplo comprueba que su robot funcione el sensor ultrasonico[link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobotica-2_test_sensor_ultrasonico/kitRobotica-2_test_sensor_ultrasonico.ino "Ejemplo Robot2").
+3) Este ejemplo comprueba que su robot se mueva en función de la lectura del sensor ultrasónico. Con este ejemplo ya se puede considerar un robot. Revise la rutina y observe que el valor del sensor ultrasónico que utiliza para decidir la acción de movimiento del robot. [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobotica-3_movimiento_con_sensor_ultrasonico/kitRobotica-3_movimiento_con_sensor_ultrasonico.ino "Ejemplo Robot3"). 
 
-este ejemplo comprueba que su robot se mueva en funcion de la lectura del sensor ultrasonico [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobotica-3_movimiento_con_sensor_ultrasonico/kitRobotica-3_movimiento_con_sensor_ultrasonico.ino "Ejemplo Robot3").
-
-Este ejemplo prueba que su robot se mueva en funcion de una medicion del sensor ultrasonico cuando se mueve el servomotor [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobot-4_funcionamiento_servomotor/kitRobot-4_funcionamiento_servomotor.ino "Ejemplo Robot4").
-
+4) Este ejemplo prueba que su robot se mueva en función de una medición del sensor ultrasónico cuando se mueve el servomotor. Igual que el anterior caso, en este ejemplo el robot se detendrá ṕor algún momento y obtendrá la medición de sensor. [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobot-4_funcionamiento_servomotor/kitRobot-4_funcionamiento_servomotor.ino "Ejemplo Robot4").
 
