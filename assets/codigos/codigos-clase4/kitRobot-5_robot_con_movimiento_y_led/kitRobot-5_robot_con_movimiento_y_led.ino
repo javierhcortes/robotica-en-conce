@@ -1,17 +1,28 @@
+/*
+Para instrucciones del armado del kit revise
+ http://roboticaenconce.cl/posts/RO101-armado-kit/
+*/
+
+// si hay errores en esta linea, debe cargar la librearia de Fast LED 
+// se encuentra en el manejador de librearias desde su arduino IDE.
+
 #include "FastLED.h"
 
-// define Pin numbers
+/// Bloque inicialización. Aqui escribimos variables de alcance global.
+// definicion conexionado puente H - microcontrolador
+const int BIA = 10; // (pwm) pin 10 connected to pin B-IA  
+const int BIB = 6;  // (pwm) pin 6  connected to pin B-IB 
+
 const int AIA = 9;  // (pwm) pin 9 connected to pin A-IA 
 const int AIB = 5;  // (pwm) pin 5 connected to pin A-IB 
-const int BIA = 10; // (pwm) pin 10 connected to pin B-IA  
-const int BIB = 6;  // (pwm) pin 6 connected to pin B-IB 
 
-const int trigPin = 7;
-const int echoPin = 8; 
-const int ledPin  = 12;
-const int servoPin = 3;
+byte speed = 255;  // este valor entre [0-255] define la velocidad de los motores
 
-byte speed = 255;  // change this (0-255) to control the speed of the motors 
+// definicion pines del sensor ultrasonico
+const int trigPin = 2;
+const int echoPin = 3;
+
+const int ledPin = 4;
 const int NUM_LEDS = 16;
 const int brilloNow = 20;
 
@@ -19,7 +30,7 @@ const int brilloNow = 20;
 CRGB leds[NUM_LEDS];
 
 void setup() {
-  // for practical propurse
+  
   delay(1000);
   pinMode(AIA, OUTPUT); // set pins to output
   pinMode(AIB, OUTPUT);
