@@ -271,3 +271,4 @@ El siguiente es el listado de códigos que ira cargando en su robot. Cada uno de
 
 4) Este ejemplo prueba que su robot se mueva en función de una medición del sensor ultrasónico cuando se mueve el servomotor. Igual que el anterior caso, en este ejemplo el robot se detendrá ṕor algún momento y obtendrá la medición de sensor. [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobot-4_funcionamiento_servomotor/kitRobot-4_funcionamiento_servomotor.ino "Ejemplo Robot4").
 
+5) Este ejemplo utiliza el anillo led. Similar al ejemplo 3, pero cambiara de color dependiendo de la dirección que se elija. [link](https://raw.githubusercontent.com/javierhcortes/robotica-en-conce/master/assets/codigos/codigos-clase4/kitRobot-5_robot_con_movimiento_y_led/kitRobot-5_robot_con_movimiento_y_led.ino "Ejemplo Robot5").
