@@ -13,7 +13,7 @@ feature_row:
   - image_path: /assets/images/kit-ligth.jpg
     #alt: "customizable"
     title: "Próximos talleres"
-    excerpt: "<b>Inscripciones abiertas!</b> Taller de Robótica para principiantes."
+    excerpt: "<b>Inscripciones cerradas!</b> Pronto un nuevo taller de Robótica para principiantes."
     url: "/posts/primer-taller/"
     btn_class: "btn--primary"
     btn_label: "Información del Taller: Robótica para principiantes"
@@ -37,10 +37,10 @@ feature_row:
 github:
   - excerpt: ''
 intro:
-  - excerpt: '**Inscripciones Abiertas!: Robótica para principiantes** <br/>
-  Fecha: Sábado 22, 29 de Septiembre y 6, 13 de Octubre de 14:30 a 17:00 hrs. <br/>
+  - excerpt: '**Inscripciones Cerradas!: Pronto nuevos talleres** <br/>
+  <!--br/>Fecha: Sábado 22, 29 de Septiembre y 6, 13 de Octubre de 14:30 a 17:00 hrs. <br/>
   Lugar : Centro de Creación Concepción - Martínez de Rosas 50, Concepción<br/>
-   <a href="/posts/primer-taller/">Detalle e inscripciones aquí</a>'
+   <a href="/posts/primer-taller/">Detalle e inscripciones aquí</a!-->'
 
 ---
 
